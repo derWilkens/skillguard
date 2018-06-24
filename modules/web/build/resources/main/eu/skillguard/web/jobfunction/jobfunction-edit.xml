@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editorCaption"
+        class="eu.skillguard.web.jobfunction.JobfunctionEdit"
+        datasource="jobfunctionDs"
+        focusComponent="fieldGroup"
+        messagesPack="eu.skillguard.web.jobfunction">
+    <dsContext>
+        <datasource id="jobfunctionDs"
+                    class="eu.skillguard.entity.Jobfunction"
+                    view="jobfunction-view">
+            <collectionDatasource id="rolesDs"
+                                  property="roles"/>
+        </datasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="jobfunctionDs">
+            <column width="250px">
+                <field property="name"/>
+            </column>
+        </fieldGroup>
+        <groupBox id="rolesBox"
+                  caption="msg://eu.skillguard.entity/Jobfunction.roles">
+            <table id="rolesTable"
+                   height="200px"
+                   width="100%">
+                <actions>
+                    <action id="add"/>
+                    <action id="remove"/>
+                </actions>
+                <columns>
+                    <column id="name"/>
+                </columns>
+                <rows datasource="rolesDs"/>
+                <buttonsPanel>
+                    <button action="rolesTable.add"/>
+                    <button action="rolesTable.remove"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

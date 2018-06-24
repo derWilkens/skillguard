@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<screen-config xmlns="http://schemas.haulmont.com/cuba/screens.xsd">
+    <include file="eu/skillguard/screens.xml"/>
+    <screen id="skillguard$Department.edit"
+            template="eu/skillguard/web/department/department-edit.xml"/>
+    <screen id="skillguard$Department.browse"
+            template="eu/skillguard/web/department/department-browse.xml"/>
+    <screen id="skillguard$Employee.edit"
+            template="eu/skillguard/web/employee/employee-edit.xml"/>
+    <screen id="skillguard$Employee.browse"
+            template="eu/skillguard/web/employee/employee-browse.xml"/>
+    <screen id="skillguard$Jobfunction.edit"
+            template="eu/skillguard/web/jobfunction/jobfunction-edit.xml"/>
+    <screen id="skillguard$CertificateType.browse"
+            template="eu/skillguard/web/certificatetype/certificate-type-browse.xml"/>
+    <screen id="skillguard$Jobfunction.browse"
+            template="eu/skillguard/web/jobfunction/jobfunction-browse.xml"/>
+    <screen id="skillguard$Role.browse"
+            template="eu/skillguard/web/role/role-browse.xml"/>
+    <screen id="skillguard$Certificate.browse"
+            template="eu/skillguard/web/certificate/certificate-browse.xml"/>
+</screen-config>

@@ -1,0 +1,215 @@
+10-Jun-2018 22:20:28.152 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Jun-2018 22:20:28.170 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Jun-2018 22:20:28.172 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Jun-2018 22:20:28.173 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Jun-2018 22:20:28.173 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Jun-2018 22:20:28.176 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2018 22:20:28.177 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+10-Jun-2018 22:20:28.177 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+10-Jun-2018 22:20:28.178 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2018 22:20:28.179 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:20:28.181 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:20:28.183 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\conf\logging.properties
+10-Jun-2018 22:20:28.184 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2018 22:20:28.185 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2018 22:20:28.185 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2018 22:20:28.186 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat/conf/logback.xml
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\temp
+10-Jun-2018 22:20:28.188 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Users\Christian\AppData\Local\Microsoft\WindowsApps;;.]
+10-Jun-2018 22:20:32.621 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:20:32.670 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:20:32.676 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:20:32.680 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:20:32.681 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 5120 ms
+10-Jun-2018 22:20:32.736 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2018 22:20:32.737 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Jun-2018 22:20:32.757 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app]
+10-Jun-2018 22:20:50.190 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app] has finished in [17,422] ms
+10-Jun-2018 22:20:50.191 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core]
+10-Jun-2018 22:21:13.226 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core] has finished in [23,035] ms
+10-Jun-2018 22:21:13.242 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:21:13.276 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:21:13.284 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 40601 ms
+10-Jun-2018 22:21:13.556 WARNUNG [http-nio-8080-exec-38] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Jun-2018 22:26:48.322 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2018 22:26:48.325 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:26:48.481 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:26:48.556 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2018 22:26:48.940 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:26:48.965 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:26:48.969 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:26:48.975 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:27:17.825 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Jun-2018 22:27:17.839 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Jun-2018 22:27:17.840 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Jun-2018 22:27:17.841 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Jun-2018 22:27:17.841 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Jun-2018 22:27:17.847 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2018 22:27:17.848 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+10-Jun-2018 22:27:17.848 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+10-Jun-2018 22:27:17.848 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2018 22:27:17.851 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:27:17.852 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\conf\logging.properties
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Jun-2018 22:27:17.854 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat/conf/logback.xml
+10-Jun-2018 22:27:17.869 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Jun-2018 22:27:17.871 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:27:17.872 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:27:17.873 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\temp
+10-Jun-2018 22:27:17.874 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Users\Christian\AppData\Local\Microsoft\WindowsApps;;.]
+10-Jun-2018 22:27:18.338 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:27:18.397 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:27:18.405 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:27:18.409 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:27:18.409 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1133 ms
+10-Jun-2018 22:27:18.497 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2018 22:27:18.499 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Jun-2018 22:27:18.525 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app]
+10-Jun-2018 22:27:40.208 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app] has finished in [21,682] ms
+10-Jun-2018 22:27:40.211 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core]
+10-Jun-2018 22:28:07.139 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core] has finished in [26,928] ms
+10-Jun-2018 22:28:07.159 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:28:07.189 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:28:07.213 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 48801 ms
+10-Jun-2018 22:28:07.494 WARNUNG [http-nio-8080-exec-45] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Jun-2018 22:41:20.440 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2018 22:41:20.449 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:41:20.586 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:41:20.669 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2018 22:41:20.904 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:41:20.920 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:41:20.930 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:41:20.934 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:41:46.668 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Jun-2018 22:41:46.681 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Jun-2018 22:41:46.681 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Jun-2018 22:41:46.682 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Jun-2018 22:41:46.683 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Jun-2018 22:41:46.684 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2018 22:41:46.686 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+10-Jun-2018 22:41:46.686 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+10-Jun-2018 22:41:46.691 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2018 22:41:46.692 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:41:46.693 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:41:46.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\conf\logging.properties
+10-Jun-2018 22:41:46.694 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2018 22:41:46.696 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2018 22:41:46.697 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2018 22:41:46.698 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Jun-2018 22:41:46.699 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Jun-2018 22:41:46.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Jun-2018 22:41:46.700 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat/conf/logback.xml
+10-Jun-2018 22:41:46.705 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Jun-2018 22:41:46.706 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:41:46.707 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:41:46.710 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\temp
+10-Jun-2018 22:41:46.711 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Users\Christian\AppData\Local\Microsoft\WindowsApps;;.]
+10-Jun-2018 22:41:46.967 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:41:47.015 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:41:47.020 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:41:47.023 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:41:47.024 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 869 ms
+10-Jun-2018 22:41:47.070 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2018 22:41:47.071 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Jun-2018 22:41:47.086 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app]
+10-Jun-2018 22:42:04.158 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app] has finished in [17,061] ms
+10-Jun-2018 22:42:04.159 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core]
+10-Jun-2018 22:42:22.373 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core] has finished in [18,214] ms
+10-Jun-2018 22:42:22.379 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:42:22.395 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:42:22.395 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 35375 ms
+10-Jun-2018 22:42:22.590 WARNUNG [http-nio-8080-exec-6] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Jun-2018 22:47:55.234 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2018 22:47:55.237 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:47:55.362 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:47:55.433 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2018 22:47:55.562 WARNUNG [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [scheduler-9] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1102)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1067)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+10-Jun-2018 22:47:55.621 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:47:55.634 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:47:55.636 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:47:55.639 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:48:26.882 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.23
+10-Jun-2018 22:48:26.903 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2017 10:30:11 UTC
+10-Jun-2018 22:48:26.904 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.23.0
+10-Jun-2018 22:48:26.906 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+10-Jun-2018 22:48:26.907 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+10-Jun-2018 22:48:26.911 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2018 22:48:26.912 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+10-Jun-2018 22:48:26.913 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+10-Jun-2018 22:48:26.918 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Jun-2018 22:48:26.919 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:48:26.921 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:48:26.923 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\conf\logging.properties
+10-Jun-2018 22:48:26.928 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2018 22:48:26.931 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2018 22:48:26.931 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2018 22:48:26.935 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xrunjdwp:transport=dt_socket,address=8787,server=y,suspend=n
+10-Jun-2018 22:48:26.937 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx512m
+10-Jun-2018 22:48:26.938 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+10-Jun-2018 22:48:26.943 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dlogback.configurationFile=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat/conf/logback.xml
+10-Jun-2018 22:48:26.947 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+10-Jun-2018 22:48:26.950 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:48:26.955 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat
+10-Jun-2018 22:48:26.956 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\temp
+10-Jun-2018 22:48:26.960 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files (x86)\Brackets\command;C:\Program Files\PuTTY\;C:\Users\Christian\AppData\Local\Microsoft\WindowsApps;;.]
+10-Jun-2018 22:48:27.252 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:48:27.291 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:48:27.296 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:48:27.299 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Jun-2018 22:48:27.301 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 931 ms
+10-Jun-2018 22:48:27.356 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2018 22:48:27.359 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.23
+10-Jun-2018 22:48:27.397 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app]
+10-Jun-2018 22:48:44.433 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app] has finished in [17,036] ms
+10-Jun-2018 22:48:44.441 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core]
+10-Jun-2018 22:49:08.616 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Christian\Documents\GitHub\skillguard\deploy\tomcat\webapps\app-core] has finished in [24,175] ms
+10-Jun-2018 22:49:08.627 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:49:08.645 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:49:08.653 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 41351 ms
+10-Jun-2018 22:49:18.329 WARNUNG [http-nio-8080-exec-41] com.vaadin.server.DefaultDeploymentConfiguration.checkProductionMode 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+10-Jun-2018 22:50:41.159 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2018 22:50:41.161 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:50:41.284 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:50:41.403 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2018 22:50:41.611 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:50:41.625 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Jun-2018 22:50:41.629 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Jun-2018 22:50:41.634 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

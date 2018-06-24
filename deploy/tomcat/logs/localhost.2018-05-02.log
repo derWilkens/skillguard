@@ -1,0 +1,7 @@
+02-May-2018 22:24:00.902 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+02-May-2018 22:24:01.574 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+02-May-2018 22:24:12.697 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+02-May-2018 22:24:15.050 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+02-May-2018 22:24:18.120 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+02-May-2018 22:24:18.120 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+02-May-2018 22:24:33.868 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'remoting'
