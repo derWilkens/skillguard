@@ -448,3 +448,10 @@ Tag                                                  Avg(ms)         Min        
 Performance Statistics   2018-07-10 10:34:00 - 2018-07-10 10:35:00
 Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
 
+Performance Statistics   2018-07-10 10:35:00 - 2018-07-10 10:36:00
+Tag                                                  Avg(ms)         Min         Max     Std Dev       Count
+QueryParser.getEntityName()                              0,0           0           0         0,0           1
+QueryParser.getEntityNameIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getEntityPathIfSecondaryReturnedInsteadOfMain()         0,0           0           0         0,0           1
+QueryParser.getParamNames()                              0,0           0           0         0,0           1
+
