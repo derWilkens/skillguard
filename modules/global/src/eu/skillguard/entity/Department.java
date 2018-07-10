@@ -33,6 +33,13 @@ public class Department extends BaseUuidEntity implements Versioned, SoftDelete,
     @Column(name = "UPDATE_TS")
     protected Date updateTs;
 
+    @Lookup(type = LookupType.DROPDOWN, actions = {"clear"})
+    @OnDeleteInverse(DeletePolicy.UNLINK)
+    @OnDelete(DeletePolicy.UNLINK)
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "DEFAULT_JOB_FUNCTION_ID")
+    protected Jobfunction defaultJobFunction;
+
     @Column(name = "NAME", length = 50)
     protected String name;
 
@@ -79,6 +86,15 @@ public class Department extends BaseUuidEntity implements Versioned, SoftDelete,
 
     @Column(name = "DELETED_BY", length = 50)
     protected String deletedBy;
+
+    public void setDefaultJobFunction(Jobfunction defaultJobFunction) {
+        this.defaultJobFunction = defaultJobFunction;
+    }
+
+    public Jobfunction getDefaultJobFunction() {
+        return defaultJobFunction;
+    }
+
 
     public void setName(String name) {
         this.name = name;

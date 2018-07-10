@@ -19,4 +19,8 @@
             template="eu/skillguard/web/role/role-browse.xml"/>
     <screen id="skillguard$Certificate.browse"
             template="eu/skillguard/web/certificate/certificate-browse.xml"/>
+    <screen id="mainWindow"
+            template="eu/skillguard/web/screens/ext-mainwindow.xml"/>
+    <screen id="skillguard$UploadFrame"
+            template="eu/skillguard/web/certificate/uploadFrame.xml"/>
 </screen-config>

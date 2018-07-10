@@ -18,3 +18,85 @@
 24-Jun-2018 20:38:25.076 INFORMATION [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'rest_api'
 24-Jun-2018 20:38:25.091 INFORMATION [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
 24-Jun-2018 20:38:25.951 INFORMATION [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'remoting'
+24-Jun-2018 22:24:44.367 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+24-Jun-2018 22:24:44.733 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Jun-2018 22:24:55.347 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'dispatcher'
+24-Jun-2018 22:24:58.638 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'rest_api'
+24-Jun-2018 22:25:01.237 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing AtmosphereFramework
+24-Jun-2018 22:25:01.237 INFORMATION [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+24-Jun-2018 22:25:18.905 SCHWERWIEGEND [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStart Exception sending context initialized event to listener instance of class [com.haulmont.cuba.core.sys.AppContextLoader]
+ java.lang.RuntimeException: Error loading DB-stored app properties cache
+	at com.haulmont.cuba.core.app.ConfigStorage.loadCache(ConfigStorage.java:135)
+	at com.haulmont.cuba.core.app.ConfigStorage.getDbProperty(ConfigStorage.java:106)
+	at com.haulmont.cuba.core.sys.ConfigPersisterImpl.getProperty(ConfigPersisterImpl.java:44)
+	at com.haulmont.cuba.core.config.ConfigGetter.getProperty(ConfigGetter.java:110)
+	at com.haulmont.cuba.core.config.ConfigGetter.getProperty(ConfigGetter.java:95)
+	at com.haulmont.cuba.core.config.ConfigGetter.invoke(ConfigGetter.java:67)
+	at com.haulmont.cuba.core.config.ConfigHandler.invoke(ConfigHandler.java:79)
+	at com.sun.proxy.$Proxy192.getBruteForceProtectionEnabled(Unknown Source)
+	at com.haulmont.cuba.security.app.BruteForceProtectionBean.isBruteForceProtectionEnabled(BruteForceProtectionBean.java:149)
+	at com.haulmont.cuba.security.auth.checks.BruteForceUserCredentialsChecker.onAuthenticationFailure(BruteForceUserCredentialsChecker.java:71)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:256)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:177)
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:140)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at com.haulmont.cuba.core.sys.EventsImpl.publish(EventsImpl.java:33)
+	at com.haulmont.cuba.security.auth.AuthenticationManagerBean.publishAuthenticationFailed(AuthenticationManagerBean.java:357)
+	at com.haulmont.cuba.security.auth.AuthenticationManagerBean.authenticateInternal(AuthenticationManagerBean.java:277)
+	at com.haulmont.cuba.security.auth.AuthenticationManagerBean.login(AuthenticationManagerBean.java:115)
+	at com.haulmont.cuba.security.auth.AnonymousSessionHolder.loginAnonymous(AnonymousSessionHolder.java:75)
+	at com.haulmont.cuba.security.auth.AnonymousSessionHolder.initializeAnonymousSession(AnonymousSessionHolder.java:66)
+	at com.haulmont.cuba.security.auth.AnonymousSessionHolder.applicationStarted(AnonymousSessionHolder.java:45)
+	at com.haulmont.cuba.core.sys.AppContext.startContext(AppContext.java:239)
+	at com.haulmont.cuba.core.sys.AppContext$Internals.startContext(AppContext.java:302)
+	at com.haulmont.cuba.core.sys.AbstractWebAppContextLoader.contextInitialized(AbstractWebAppContextLoader.java:83)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4745)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5207)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: user lacks privilege or object not found: VALUE Query: select NAME, VALUE from SYS_CONFIG Parameters: []
+	at com.haulmont.bali.db.QueryRunner.rethrow(QueryRunner.java:462)
+	at com.haulmont.bali.db.QueryRunner.query(QueryRunner.java:320)
+	at com.haulmont.bali.db.QueryRunner.query(QueryRunner.java:411)
+	at com.haulmont.bali.db.QueryRunner.query(QueryRunner.java:386)
+	at com.haulmont.bali.db.QueryRunner.query(QueryRunner.java:430)
+	at com.haulmont.cuba.core.app.ConfigStorage.loadCache(ConfigStorage.java:123)
+	... 44 more
+
+24-Jun-2018 22:25:18.916 SCHWERWIEGEND [localhost-startStop-1] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [com.haulmont.cuba.core.sys.AppContextLoader]
+ java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1090)
+	at com.haulmont.cuba.core.sys.AbstractWebAppContextLoader.contextDestroyed(AbstractWebAppContextLoader.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4792)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5429)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1144)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1878)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+

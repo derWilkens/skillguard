@@ -82,7 +82,6 @@ create table DDCDI_IMPORT_ATTRIBUTE_MAPPER (
     --
     CONFIGURATION_ID varchar(32) not null,
     ENTITY_ATTRIBUTE varchar(255) not null,
-    DYNAMIC_ATTRIBUTE boolean,
     FILE_COLUMN_NUMBER integer not null,
     FILE_COLUMN_ALIAS varchar(255),
     CUSTOM_ATTRIBUTE_BIND_SCRIPT longtext,
@@ -101,7 +100,7 @@ create table DDCDI_UNIQUE_CONFIGURATION_ATTRIBUTE (
     DELETE_TS datetime(3),
     DELETED_BY varchar(50),
     --
-    ENTITY_ATTRIBUTE varchar(255) not null,
+    ENTITY_ATTRIBUTE varchar(255),
     UNIQUE_CONFIGURATION_ID varchar(32) not null,
     --
     primary key (ID)

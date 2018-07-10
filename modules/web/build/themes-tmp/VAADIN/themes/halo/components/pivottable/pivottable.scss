@@ -50,13 +50,21 @@
     select.pvtAttrDropdown,
     .pvtAxisContainer li span.pvtAttr {
       @include valo-nativeselect-select-style;
+      &:focus {
+        border-color: $v-focus-color;
+      }
     }
 
+    .pvtUi > tbody > tr > td:first-child,
     .pvtAxisContainer, .pvtVals,
     table.pvtTable thead tr th,
     table.pvtTable tbody tr th {
       $bg-lightness: if(color-luminance($background-color) < 10, 4%, -4%);
       background-color: scale-color($background-color, $lightness: $bg-lightness);
+    }
+
+    .pvtUi > tbody > tr:first-child > td:first-child {
+      border: 1px solid $border-color;
     }
 
     .pvtAxisContainer li.pvtPlaceholder,
@@ -68,13 +76,86 @@
 
     table.pvtTable thead tr th,
     table.pvtTable tbody tr th,
-    table.pvtTable tbody tr td {
+    table.pvtTable tbody tr td,
+    .pvtAxisContainer,
+    .pvtVals {
       border-color: $border-color;
+    }
+
+    select.pvtRenderer {
+      width: 100%;
+    }
+
+    .pvtFilterBox {
+      @include box-shadow( valo-bevel-and-shadow($bevel: null, $shadow: $v-overlay-shadow));
+
+      border-radius: $v-border-radius;
+      border-color: transparent;
+
+      padding-top: $v-layout-spacing-vertical;
+
+      p {
+        margin-top: $v-layout-spacing-vertical;
+      }
+
+      .pvtCheckContainer {
+        margin-top: $v-layout-spacing-vertical;
+      }
+
+      button {
+        @include valo-button-static-style;
+        @include valo-button-style($font-color: $v-button-font-color);
+      }
+
+      input[type="text"] {
+        @include valo-textfield-style;
+        box-sizing: border-box;
+        margin-bottom: $v-layout-spacing-vertical;
+      }
+
+      p > button {
+        margin: 0 $v-layout-spacing-horizontal/2;
+      }
+    }
+
+    select.pvtAttrDropdown {
+      margin: $v-layout-spacing-vertical $v-layout-spacing-horizontal/2 0 $v-layout-spacing-horizontal/2;
+    }
+
+    .pvtAxisContainer li {
+      padding-left: $v-layout-spacing-horizontal/2;
+      padding-right: $v-layout-spacing-horizontal/2;
+    }
+
+    .pvtCheckContainer {
+      overflow: auto;
+    }
+
+    .pvtUi > tbody > tr:first-child > td:first-child,
+    .pvtAxisContainer,
+    .pvtVals {
+      padding: $v-layout-spacing-vertical $v-layout-spacing-horizontal;
+    }
+
+    .pvtRowOrder,
+    .pvtColOrder {
+      text-decoration: none;
+      color: valo-font-color($v-background-color);
     }
   }
 
   .#{$primary-stylename}.v-disabled {
     @include opacity($v-disabled-opacity);
     pointer-events: none;
+  }
+
+  .#{$primary-stylename}-empty {
+    &:after {
+      content: attr(empty-data-message);
+    }
+
+    > * {
+      display: none;
+    }
   }
 }

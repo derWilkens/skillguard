@@ -7,8 +7,9 @@ import javax.annotation.Nullable;
 
 public enum EducationalLevel implements EnumClass<Integer> {
 
-    Init(10),
-    Cont(20);
+    Basic(10),
+    Init(20),
+    Cont(30);
 
     private Integer id;
 
