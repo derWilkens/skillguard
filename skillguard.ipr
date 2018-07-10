@@ -24,6 +24,7 @@
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="PROJECT" charset="UTF-8"/>
     <file url="PROJECT" charset="UTF-8"/>
+    <file url="PROJECT" charset="UTF-8"/>
   </component>
   <component name="GradleUISettings">
     <setting name="root"/>
@@ -56,6 +57,7 @@
       <module filepath="$PROJECT_DIR$/modules/global/app-global.iml" fileurl="file://$PROJECT_DIR$/modules/global/app-global.iml"/>
       <module filepath="$PROJECT_DIR$/modules/gui/app-gui.iml" fileurl="file://$PROJECT_DIR$/modules/gui/app-gui.iml"/>
       <module filepath="$PROJECT_DIR$/modules/web/app-web.iml" fileurl="file://$PROJECT_DIR$/modules/web/app-web.iml"/>
+      <module filepath="$PROJECT_DIR$/modules/web/themes/app-web-themes.iml" fileurl="file://$PROJECT_DIR$/modules/web/themes/app-web-themes.iml"/>
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" assert-keyword="true" jdk-15="true" project-jdk-type="JavaSDK" assert-jdk-15="true" project-jdk-name="1.8">

@@ -23,6 +23,9 @@
       <file url="file://$PROJECT_DIR$/build.gradle"/>
       <file url="file://$PROJECT_DIR$/settings.gradle"/>
       <file url="file://$PROJECT_DIR$/extra.gradle"/>
+      <file url="file://$PROJECT_DIR$/build.gradle"/>
+      <file url="file://$PROJECT_DIR$/settings.gradle"/>
+      <file url="file://$PROJECT_DIR$/extra.gradle"/>
     </disable_hints>
   </component>
   <component name="DebuggerManager">
@@ -90,6 +93,7 @@
     <property name="MemberChooser.showClasses" value="true"/>
     <property name="GoToClass.includeLibraries" value="false"/>
     <property name="MemberChooser.copyJavadoc" value="false"/>
+    <property name="show.inlinked.gradle.project.popup" value="false"/>
     <property name="show.inlinked.gradle.project.popup" value="false"/>
     <property name="show.inlinked.gradle.project.popup" value="false"/>
   </component>
@@ -234,6 +238,9 @@
     </panes>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/build.gradle" root0="SKIP_INSPECTION"/>
+    <setting file="file://$PROJECT_DIR$/settings.gradle" root0="SKIP_INSPECTION"/>
+    <setting file="file://$PROJECT_DIR$/extra.gradle" root0="SKIP_INSPECTION"/>
     <setting file="file://$PROJECT_DIR$/build.gradle" root0="SKIP_INSPECTION"/>
     <setting file="file://$PROJECT_DIR$/settings.gradle" root0="SKIP_INSPECTION"/>
     <setting file="file://$PROJECT_DIR$/extra.gradle" root0="SKIP_INSPECTION"/>
