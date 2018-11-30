@@ -13,13 +13,13 @@
     <dsContext>
         <datasource id="roleDs"
                     class="eu.skillguard.entity.Role"
-                    view="role-view">
+                    view="role-cert-edit">
             <collectionDatasource id="certificateTypesDs"
                                   property="certificateTypes"/>
         </datasource>
         <groupDatasource id="rolesDs"
                          class="eu.skillguard.entity.Role"
-                         view="role-view">
+                         view="role-cert-edit">
             <query>
                 <![CDATA[select e from skillguard$Role e]]>
             </query>

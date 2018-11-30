@@ -6,12 +6,12 @@
 }
 @keyframes v-notification-animate-out{100%{opacity:0}
 }
-.v-vaadin-version:after{content:"7.7.13.cuba.9"}
+.v-vaadin-version:after{content:"7.7.14.cuba.0"}
 .v-generated-body{width:100%;height:100%;border:0;margin:0;overflow:hidden}
 .v-modal-window-open{overflow:hidden}
-@font-face{font-family:FontAwesome;src:url(../base/fonts/fontawesome-webfont.eot?v=2018_06_29_14_25);src:url(../base/fonts/fontawesome-webfont.eot?v=2018_06_29_14_25?#iefix) format("embedded-opentype"),url(../base/fonts/fontawesome-webfont.woff?v=2018_06_29_14_25) format("woff"),url(../base/fonts/fontawesome-webfont.ttf?v=2018_06_29_14_25) format("truetype"),url(../base/fonts/fontawesome-webfont.svg?v=2018_06_29_14_25) format("svg");font-weight:normal;font-style:normal}
+@font-face{font-family:FontAwesome;src:url(../base/fonts/fontawesome-webfont.eot?v=2018_09_27_13_43);src:url(../base/fonts/fontawesome-webfont.eot?v=2018_09_27_13_43?#iefix) format("embedded-opentype"),url(../base/fonts/fontawesome-webfont.woff?v=2018_09_27_13_43) format("woff"),url(../base/fonts/fontawesome-webfont.ttf?v=2018_09_27_13_43) format("truetype"),url(../base/fonts/fontawesome-webfont.svg?v=2018_09_27_13_43) format("svg");font-weight:normal;font-style:normal}
 .FontAwesome{font-family:FontAwesome;font-style:normal;font-weight:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block}
-@font-face{font-family:ThemeIcons;src:url(../base/fonts/themeicons-webfont.eot?v=2018_06_29_14_25);src:url(../base/fonts/themeicons-webfont.eot?v=2018_06_29_14_25?#iefix?v=2018_06_29_14_25) format("embedded-opentype"),url(../base/fonts/themeicons-webfont.woff?v=2018_06_29_14_25) format("woff"),url(../base/fonts/themeicons-webfont.ttf?v=2018_06_29_14_25) format("truetype"),url(../base/fonts/themeicons-webfont.svg?v=2018_06_29_14_25) format("svg");font-weight:normal;font-style:normal}
+@font-face{font-family:ThemeIcons;src:url(../base/fonts/themeicons-webfont.eot?v=2018_09_27_13_43);src:url(../base/fonts/themeicons-webfont.eot?v=2018_09_27_13_43?#iefix?v=2018_09_27_13_43) format("embedded-opentype"),url(../base/fonts/themeicons-webfont.woff?v=2018_09_27_13_43) format("woff"),url(../base/fonts/themeicons-webfont.ttf?v=2018_09_27_13_43) format("truetype"),url(../base/fonts/themeicons-webfont.svg?v=2018_09_27_13_43) format("svg");font-weight:normal;font-style:normal}
 .ThemeIcons{font-family:ThemeIcons;font-style:normal;font-weight:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block}
 .havana .v-widget{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-align:left;display:inline-block;white-space:normal;vertical-align:bottom;font-size:16px;line-height:normal}
 .havana .v-absolutelayout-wrapper{position:absolute;overflow:hidden}
@@ -65,14 +65,14 @@
 .havana .v-colorpicker-popup .v-scrollable{background-color:#ddd}
 .havana .v-colorpicker-popup .v-tabsheet-content .v-scrollable{background-color:#eaeaea}
 .havana .v-colorpicker-popup .v-tabsheet-content .v-tabsheet-tabsheetpanel{background:transparent}
-.havana .v-colorpicker-popup .resize-button{border:0 solid silver;background:url(../base/colorpicker/images/resizebg.png?v=2018_06_29_14_25);margin-top:5px}
+.havana .v-colorpicker-popup .resize-button{border:0 solid silver;background:url(../base/colorpicker/images/resizebg.png?v=2018_09_27_13_43);margin-top:5px}
 .havana .v-colorpicker-popup .resize-button-caption{display:none}
-.havana .v-colorpicker-popup .resize-button:hover{background:url(../base/colorpicker/images/resizebg-selected.png?v=2018_06_29_14_25)}
+.havana .v-colorpicker-popup .resize-button:hover{background:url(../base/colorpicker/images/resizebg-selected.png?v=2018_09_27_13_43)}
 .havana .v-colorpicker-popup .resize-button:focus{outline:0}
 .havana .v-colorpicker-gradient{width:220px;height:220px;padding-left:10px;margin-top:0}
 .havana .v-colorpicker-gradient .v-colorpicker-gradient-clicklayer{background-color:white;filter:alpha(opacity = 0);opacity:0}
-.havana .v-colorpicker-popup .rgb-gradient .v-colorpicker-gradient-background{width:220px;height:220px;background:url(../base/colorpicker/images/gradient2.png?v=2018_06_29_14_25)}
-.havana .v-colorpicker-popup .hsv-gradient .v-colorpicker-gradient-foreground{background:url(../base/colorpicker/images/gradient.png?v=2018_06_29_14_25)}
+.havana .v-colorpicker-popup .rgb-gradient .v-colorpicker-gradient-background{width:220px;height:220px;background:url(../base/colorpicker/images/gradient2.png?v=2018_09_27_13_43)}
+.havana .v-colorpicker-popup .hsv-gradient .v-colorpicker-gradient-foreground{background:url(../base/colorpicker/images/gradient.png?v=2018_09_27_13_43)}
 .havana .v-colorpicker-popup .v-colorpicker-gradient-lowerbox{border-right:1px solid white;border-top:1px solid white}
 .havana .v-colorpicker-popup .v-colorpicker-gradient-higherbox{border-left:1px solid white;border-bottom:1px solid white}
 .havana .v-colorpicker-popup .rgb-sliders{width:227px;padding-left:10px;color:#444;text-shadow:0 1px 0 #fff}
@@ -80,7 +80,7 @@
 .havana .v-colorpicker-popup .rgb-sliders .green .v-slider-base{background-color:green}
 .havana .v-colorpicker-popup .rgb-sliders .blue .v-slider-base{background-color:blue}
 .havana .v-colorpicker-popup .hsv-sliders{padding-left:10px;color:#444;text-shadow:0 1px 0 #fff}
-.havana .v-colorpicker-popup .hue-slider{height:10px;border:0 solid silver;background-image:url(../base/colorpicker/images/slider_hue_bg.png?v=2018_06_29_14_25);background-color:transparent;background-repeat:no-repeat;background-position:0 3px;margin-top:0}
+.havana .v-colorpicker-popup .hue-slider{height:10px;border:0 solid silver;background-image:url(../base/colorpicker/images/slider_hue_bg.png?v=2018_09_27_13_43);background-color:transparent;background-repeat:no-repeat;background-position:0 3px;margin-top:0}
 .havana .v-colorpicker-popup .hue-slider .v-slider-handle{margin-top:-2px}
 .havana .v-colorpicker-popup .hue-slider .v-slider-base{border:0 none;height:0;background-color:transparent}
 .havana .v-colorpicker-popup .v-colorpicker-preview{margin-top:5px;padding-left:11px;padding-right:10px;margin-bottom:0}
@@ -100,7 +100,7 @@
 .havana .v-calendar-header-week .v-calendar-header-day:hover{cursor:pointer;color:#222}
 .havana .v-calendar-header-day-today{font-weight:bold;color:#444}
 .havana .v-calendar-header-month td:first-child{padding-left:19px}
-.havana .v-calendar-header-week .v-calendar-back,.havana .v-calendar-header-week .v-calendar-next{border:0;padding:0;margin:0;height:12px;width:12px;overflow:hidden;background:transparent url(../base/calendar/img/arrows.png?v=2018_06_29_14_25) no-repeat 50% 0;opacity:.3;filter:alpha(opacity = 30);cursor:default}
+.havana .v-calendar-header-week .v-calendar-back,.havana .v-calendar-header-week .v-calendar-next{border:0;padding:0;margin:0;height:12px;width:12px;overflow:hidden;background:transparent url(../base/calendar/img/arrows.png?v=2018_09_27_13_43) no-repeat 50% 0;opacity:.3;filter:alpha(opacity = 30);cursor:default}
 .havana .v-calendar-header-week .v-calendar-back:hover,.havana .v-calendar-header-week .v-calendar-next:hover{opacity:.6;filter:alpha(opacity = 60)}
 .havana .v-calendar-header-week .v-calendar-back:active,.havana .v-calendar-header-week .v-calendar-next:active{opacity:1;filter:alpha(opacity = 100)}
 .havana .v-calendar-header-week .v-calendar-next{background-position:50% -12px}
@@ -159,7 +159,7 @@
 .havana.v-app,.havana .v-window,.havana .v-popupview-popup,.havana .v-label,.havana .v-caption{cursor:default}
 .havana .v-window{box-shadow:0 5px 18px 0 rgba(0,0,0,0.5)}
 .havana .v-datefield-popup,.havana .v-filterselect-suggestpopup,.havana .v-menubar-popup,.havana .v-slider-feedback,.havana .v-popupview-popup,.havana .v-contextmenu{box-shadow:0 2px 6px 0 rgba(0,0,0,0.5)}
-body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loading-indicator.gif?v=2018_06_29_14_25);background-repeat:no-repeat;background-position:50%;width:100%;height:100%}
+body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loading-indicator.gif?v=2018_09_27_13_43);background-repeat:no-repeat;background-position:50%;width:100%;height:100%}
 .havana .v-ui{height:100%;width:100%;outline:0;position:relative}
 .havana .v-ui.v-ui-embedded{margin-top:-1px;border-top:1px solid transparent}
 .havana .v-ui:active,.havana .v-ui:focus{outline:0}
@@ -173,6 +173,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-form fieldset{border:0;padding:0;margin:0;height:100%}
 .havana .v-form-content{height:100%;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .havana .v-tooltip{cursor:default;background:#fff;box-shadow:0 2px 6px 0 rgba(0,0,0,0.5)}
+.havana .v-tooltip pre.v-tooltip-pre{font:inherit;white-space:pre-wrap;margin:0}
 .havana .v-tooltip-text{overflow:auto}
 .havana .v-tooltip .v-errormessage{overflow:auto}
 .havana .v-contextmenu{background:#fff}
@@ -185,9 +186,9 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-label pre{margin:0}
 .havana .v-label-undef-w{white-space:nowrap}
 .havana .v-label h1,.havana .v-label h2,.havana .v-label h3,.havana .v-label h4,.havana .v-label h5,.havana .v-label h6{line-height:normal}
-.havana .v-loading-indicator,.havana .v-loading-indicator-delay,.havana .v-loading-indicator-wait{position:absolute;top:0;right:0;z-index:30000;width:31px;height:31px;background:transparent url(../base/common/img/loading-indicator.gif?v=2018_06_29_14_25);margin-right:5px;margin-top:5px}
-.havana .v-loading-indicator-delay{background-image:url(../base/common/img/loading-indicator-delay.gif?v=2018_06_29_14_25)}
-.havana .v-loading-indicator-wait{background-image:url(../base/common/img/loading-indicator-wait.gif?v=2018_06_29_14_25)}
+.havana .v-loading-indicator,.havana .v-loading-indicator-delay,.havana .v-loading-indicator-wait{position:absolute;top:0;right:0;z-index:30000;width:31px;height:31px;background:transparent url(../base/common/img/loading-indicator.gif?v=2018_09_27_13_43);margin-right:5px;margin-top:5px}
+.havana .v-loading-indicator-delay{background-image:url(../base/common/img/loading-indicator-delay.gif?v=2018_09_27_13_43)}
+.havana .v-loading-indicator-wait{background-image:url(../base/common/img/loading-indicator-wait.gif?v=2018_09_27_13_43)}
 .havana.v-app input[type="text"],.havana.v-app input[type="password"],.havana.v-app input[type="reset"],.havana.v-app select,.havana.v-app textarea,.havana .v-window input[type="text"],.havana .v-window input[type="password"],.havana .v-window input[type="reset"],.havana .v-window select,.havana .v-window textarea{padding:2px}
 .havana input::-ms-clear{display:none}
 .havana .v-drag-element{z-index:60000;position:absolute!important;opacity:.5;filter:alpha(opacity=50);cursor:default}
@@ -200,7 +201,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana.v-overlay-container{width:0;height:0}
 .havana .v-reconnect-dialog{color:white;top:12px;right:12px;max-width:100%;border-radius:0;-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.25);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.25);box-shadow:0 0 20px 0 rgba(0,0,0,0.25);padding:10px;background-color:#444;text-align:center}
 .havana .v-reconnect-dialog .text{display:inline-block;padding-left:10px}
-.havana .v-reconnect-dialog .spinner{background-image:url(../base/common/img/reconnect-spinner.gif?v=2018_06_29_14_25);width:31px;height:31px;display:none;vertical-align:middle}
+.havana .v-reconnect-dialog .spinner{background-image:url(../base/common/img/reconnect-spinner.gif?v=2018_09_27_13_43);width:31px;height:31px;display:none;vertical-align:middle}
 .havana .v-reconnect-dialog.active .spinner{display:inline-block}
 .havana .v-vertical.v-margin-top,.havana .v-horizontal.v-margin-top{padding-top:12px}
 .havana .v-vertical.v-margin-right,.havana .v-horizontal.v-margin-right{padding-right:12px}
@@ -315,7 +316,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana.v-app .v-ddwrapper-over-left,.havana .v-window .v-ddwrapper-over-left,.havana .v-popupview-popup .v-ddwrapper-over-left{border:0;border-left:2px solid #1d9dff;background-color:transparent;padding:2px;padding-left:0;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
 .havana.v-app .v-ddwrapper-over-right,.havana .v-window .v-ddwrapper-over-right,.havana .v-popupview-popup .v-ddwrapper-over-right{border:0;border-right:2px solid #1d9dff;background-color:transparent;padding:2px;padding-right:0;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
 .havana .v-ddwrapper,.havana .v-ddwrapper-over,.havana.v-app .v-ddwrapper-over-top,.havana .v-window .v-ddwrapper-over-top,.havana .v-popupview-popup .v-ddwrapper-over-top,.havana.v-app .v-ddwrapper-over-bottom,.havana .v-window .v-ddwrapper-over-bottom,.havana .v-popupview-popup .v-ddwrapper-over-bottom,.havana.v-app .v-ddwrapper-over-left,.havana .v-window .v-ddwrapper-over-left,.havana .v-popupview-popup .v-ddwrapper-over-left,.havana.v-app .v-ddwrapper-over-right,.havana .v-window .v-ddwrapper-over-right,.havana .v-popupview-popup .v-ddwrapper-over-right{border-color:rgba(0,109,232,0.6)}
-.havana .v-ddwrapper-over-top:before,.havana .v-ddwrapper-over-bottom:after,.havana .v-ddwrapper-over-left:before,.havana .v-ddwrapper-over-right:before{display:block;position:absolute;width:6px;height:6px;margin-top:-4px;margin-left:-2px;background:transparent url(../base/common/img/drag-slot-dot.png?v=2018_06_29_14_25) no-repeat}
+.havana .v-ddwrapper-over-top:before,.havana .v-ddwrapper-over-bottom:after,.havana .v-ddwrapper-over-left:before,.havana .v-ddwrapper-over-right:before{display:block;position:absolute;width:6px;height:6px;margin-top:-4px;margin-left:-2px;background:transparent url(../base/common/img/drag-slot-dot.png?v=2018_09_27_13_43) no-repeat}
 .havana .v-ddwrapper-over-bottom:after{margin-top:-2px}
 .havana .v-ddwrapper-over-left:before,.havana .v-ddwrapper-over-right:before{background-position:0 -6px;margin-top:-2px;margin-left:-4px}
 .havana .v-ddwrapper-over-right:before{position:relative;margin-bottom:-4px;margin-right:-4px;margin-left:0;width:auto;background-position:100% -6px}
@@ -431,7 +432,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-grid-horizontal-scrollbar-deco{background-color:#fff;border:1px solid #ddd;border-top:0}
 .havana .v-grid-cell-focused{position:relative}
 .havana .v-grid-cell-focused:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;border:1px solid;display:none;pointer-events:none}
-.ie8 .havana .v-grid-cell-focused:before,.ie9 .havana .v-grid-cell-focused:before,.ie10 .havana .v-grid-cell-focused:before{content:url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==?v=2018_06_29_14_25)}
+.ie8 .havana .v-grid-cell-focused:before,.ie9 .havana .v-grid-cell-focused:before,.ie10 .havana .v-grid-cell-focused:before{content:url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==?v=2018_09_27_13_43)}
 .havana .v-grid:focus .v-grid-cell-focused:before{display:block}
 .havana .v-grid.v-disabled:focus .v-grid-cell-focused:before{display:none}
 .havana .v-grid-editor{position:absolute;z-index:20;overflow:hidden;left:0;right:0;border:1px solid #ddd;box-sizing:border-box;-moz-box-sizing:border-box;margin-top:-1px;-webkit-box-shadow:0 0 9px rgba(0,0,0,0.2);-moz-box-shadow:0 0 9px rgba(0,0,0,0.2);box-shadow:0 0 9px rgba(0,0,0,0.2)}
@@ -464,7 +465,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-grid-spacer.stripe>td{background-color:#f2f2f2;border-top:1px solid #ddd;border-bottom:1px solid #e6e6e6}
 .havana .v-grid-spacer-deco-container{border-top:1px solid transparent;position:relative;top:0;z-index:5}
 .havana .v-grid-spacer-deco{top:0;left:0;width:2px;background-color:#bfbfbf;position:absolute;height:100%;pointer-events:none}
-.ie8 .havana .v-grid-spacer-deco:before,.ie9 .havana .v-grid-spacer-deco:before,.ie10 .havana .v-grid-spacer-deco:before{content:url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==?v=2018_06_29_14_25)}
+.ie8 .havana .v-grid-spacer-deco:before,.ie9 .havana .v-grid-spacer-deco:before,.ie10 .havana .v-grid-spacer-deco:before{content:url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==?v=2018_09_27_13_43)}
 .havana .v-grid-cell>.v-progressbar{width:100%}
 .havana .v-gridlayout{position:relative}
 .havana .v-gridlayout-slot{position:absolute}
@@ -504,7 +505,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-menubar:focus,.havana .v-menubar-popup:focus,.havana .v-menubar-popup .popupContent:focus,.havana .v-menubar-popup .popupContent .v-menubar-submenu:focus{outline:0}
 .havana .v-menubar-submenu-check-column .v-menubar-menuitem{padding-left:6px}
 .havana .v-menubar-submenu-check-column .v-menubar-menuitem-caption{padding-left:18px}
-.havana .v-menubar-submenu .v-menubar-menuitem-checked .v-menubar-menuitem-caption{background:transparent url(../base/menubar/img/check.gif?v=2018_06_29_14_25) no-repeat left}
+.havana .v-menubar-submenu .v-menubar-menuitem-checked .v-menubar-menuitem-caption{background:transparent url(../base/menubar/img/check.gif?v=2018_09_27_13_43) no-repeat left}
 .havana .v-Notification{background:#999;color:#fff;cursor:pointer;overflow:hidden;padding:1em;max-width:85%;opacity:.9;filter:alpha(opacity=90)}
 .havana .v-Notification-caption,.havana .v-Notification-description,.havana .v-Notification-details{display:inline;margin:0 .5em 0 0}
 .havana .v-Notification-warning{background:orange}
@@ -537,17 +538,17 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-panel.v-has-height>.v-panel-content{height:100%}
 .havana .v-popupview{cursor:pointer;text-decoration:underline;white-space:nowrap}
 .havana .v-popupview-popup{overflow:auto}
-.havana .v-popupview-loading{width:30px;height:30px;background:transparent url(../base/common/img/ajax-loader-medium.gif?v=2018_06_29_14_25) no-repeat 50%}
+.havana .v-popupview-loading{width:30px;height:30px;background:transparent url(../base/common/img/ajax-loader-medium.gif?v=2018_09_27_13_43) no-repeat 50%}
 .havana .v-progressbar{width:150px}
 .havana .v-progressbar-wrapper{height:7px;border:1px solid #ddd}
 .havana .v-progressbar-indicator{height:7px;background:#ddd}
-.havana div.v-progressbar-indeterminate{height:20px;width:20px;background:#fff url(../base/common/img/ajax-loader-medium.gif?v=2018_06_29_14_25) no-repeat 50%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
+.havana div.v-progressbar-indeterminate{height:20px;width:20px;background:#fff url(../base/common/img/ajax-loader-medium.gif?v=2018_09_27_13_43) no-repeat 50%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
 .havana .v-progressbar-indeterminate .v-progressbar-wrapper,.havana .v-progressbar-indeterminate .v-progressbar-indicator,.havana .v-progressbar-indeterminate-disabled .v-progressbar-wrapper,.havana .v-progressbar-indeterminate-disabled .v-progressbar-indicator{display:none}
 .havana div.v-progressbar-indeterminate-disabled{height:20px;width:20px;background:transparent}
 .havana .v-progressindicator{width:150px}
 .havana .v-progressindicator-wrapper{height:7px;border:1px solid #ddd}
 .havana .v-progressindicator-indicator{height:7px;background:#ddd}
-.havana div.v-progressindicator-indeterminate{height:20px;width:20px;background:#fff url(../base/common/img/ajax-loader-medium.gif?v=2018_06_29_14_25) no-repeat 50%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
+.havana div.v-progressindicator-indeterminate{height:20px;width:20px;background:#fff url(../base/common/img/ajax-loader-medium.gif?v=2018_09_27_13_43) no-repeat 50%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px}
 .havana .v-progressindicator-indeterminate .v-progressindicator-wrapper,.havana .v-progressindicator-indeterminate .v-progressindicator-indicator,.havana .v-progressindicator-indeterminate-disabled .v-progressindicator-wrapper,.havana .v-progressindicator-indeterminate-disabled .v-progressindicator-indicator{display:none}
 .havana div.v-progressindicator-indeterminate-disabled{height:20px;width:20px;background:transparent}
 .havana .v-select{text-align:left}
@@ -569,7 +570,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-filterselect .v-icon{float:left}
 .havana.v-app .v-filterselect-input,.havana .v-window .v-filterselect-input,.havana .v-popupview-popup .v-filterselect-input{margin:0;float:left;-webkit-border-radius:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .havana .v-filterselect-prompt .v-filterselect-input{color:#999;font-style:italic}
-.havana .v-filterselect-button{display:inline-block;cursor:pointer;width:1em;margin-right:-1em;height:1em;background:transparent url(../base/common/img/sprites.png?v=2018_06_29_14_25) no-repeat -5px -8px}
+.havana .v-filterselect-button{display:inline-block;cursor:pointer;width:1em;margin-right:-1em;height:1em;background:transparent url(../base/common/img/sprites.png?v=2018_09_27_13_43) no-repeat -5px -8px}
 .havana .v-filterselect.v-readonly .v-filterselect-button{display:none}
 .havana .v-filterselect.v-readonly,.havana .v-filterselect.v-readonly .v-filterselect-input{background:transparent}
 .havana .v-filterselect-suggestpopup{background:#fff;border:1px solid #eee}
@@ -586,15 +587,15 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-filterselect-no-input .v-filterselect-input{cursor:default}
 .havana .v-shadow{position:absolute;display:none;pointer-events:none}
 .v-ie8 .havana .v-shadow{display:block}
-.havana .v-shadow .top-left{position:absolute;overflow:hidden;top:-3px;left:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/top-left.png?v=2018_06_29_14_25)}
-.havana .v-shadow .top{position:absolute;overflow:hidden;top:-3px;left:5px;height:10px;right:5px;background:transparent url(../base/shadow/img/top.png?v=2018_06_29_14_25)}
-.havana .v-shadow .top-right{position:absolute;overflow:hidden;top:-3px;right:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/top-right.png?v=2018_06_29_14_25)}
-.havana .v-shadow .left{position:absolute;overflow:hidden;top:7px;left:-5px;width:10px;bottom:3px;background:transparent url(../base/shadow/img/left.png?v=2018_06_29_14_25)}
-.havana .v-shadow .center{position:absolute;overflow:hidden;top:7px;left:5px;bottom:3px;right:5px;background:transparent url(../base/shadow/img/center.png?v=2018_06_29_14_25)}
-.havana .v-shadow .right{position:absolute;overflow:hidden;top:7px;right:-5px;width:10px;bottom:3px;background:transparent url(../base/shadow/img/right.png?v=2018_06_29_14_25)}
-.havana .v-shadow .bottom-left{position:absolute;overflow:hidden;bottom:-7px;left:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/bottom-left.png?v=2018_06_29_14_25)}
-.havana .v-shadow .bottom{position:absolute;overflow:hidden;bottom:-7px;left:5px;right:5px;height:10px;background:transparent url(../base/shadow/img/bottom.png?v=2018_06_29_14_25)}
-.havana .v-shadow .bottom-right{position:absolute;overflow:hidden;bottom:-7px;right:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/bottom-right.png?v=2018_06_29_14_25)}
+.havana .v-shadow .top-left{position:absolute;overflow:hidden;top:-3px;left:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/top-left.png?v=2018_09_27_13_43)}
+.havana .v-shadow .top{position:absolute;overflow:hidden;top:-3px;left:5px;height:10px;right:5px;background:transparent url(../base/shadow/img/top.png?v=2018_09_27_13_43)}
+.havana .v-shadow .top-right{position:absolute;overflow:hidden;top:-3px;right:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/top-right.png?v=2018_09_27_13_43)}
+.havana .v-shadow .left{position:absolute;overflow:hidden;top:7px;left:-5px;width:10px;bottom:3px;background:transparent url(../base/shadow/img/left.png?v=2018_09_27_13_43)}
+.havana .v-shadow .center{position:absolute;overflow:hidden;top:7px;left:5px;bottom:3px;right:5px;background:transparent url(../base/shadow/img/center.png?v=2018_09_27_13_43)}
+.havana .v-shadow .right{position:absolute;overflow:hidden;top:7px;right:-5px;width:10px;bottom:3px;background:transparent url(../base/shadow/img/right.png?v=2018_09_27_13_43)}
+.havana .v-shadow .bottom-left{position:absolute;overflow:hidden;bottom:-7px;left:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/bottom-left.png?v=2018_09_27_13_43)}
+.havana .v-shadow .bottom{position:absolute;overflow:hidden;bottom:-7px;left:5px;right:5px;height:10px;background:transparent url(../base/shadow/img/bottom.png?v=2018_09_27_13_43)}
+.havana .v-shadow .bottom-right{position:absolute;overflow:hidden;bottom:-7px;right:-5px;width:10px;height:10px;background:transparent url(../base/shadow/img/bottom-right.png?v=2018_09_27_13_43)}
 .havana .v-slider{margin:5px 0}
 .havana .v-slider-base{height:2px;border-top:1px solid #ddd;background:#eee;border-left:1px solid #ddd;border-right:1px solid #eee}
 .havana .v-slider-handle{background:#aaa;width:12px;height:12px;margin-top:-5px;font-size:0;-ms-touch-action:none;touch-action:none}
@@ -627,12 +628,12 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-table-caption-container-align-right{float:right}
 .havana .v-table-sort-indicator{width:0;height:1.2em;float:right}
 .havana .v-table-header-cell-asc .v-table-sort-indicator,.havana .v-table-header-cell-desc .v-table-sort-indicator{width:16px;height:1.2em;float:right}
-.havana .v-table-header-cell-asc .v-table-sort-indicator{background:transparent url(../base/common/img/sprites.png?v=2018_06_29_14_25) no-repeat right 6px}
-.havana .v-table-header-cell-desc .v-table-sort-indicator{background:transparent url(../base/common/img/sprites.png?v=2018_06_29_14_25) no-repeat right -10px}
+.havana .v-table-header-cell-asc .v-table-sort-indicator{background:transparent url(../base/common/img/sprites.png?v=2018_09_27_13_43) no-repeat right 6px}
+.havana .v-table-header-cell-desc .v-table-sort-indicator{background:transparent url(../base/common/img/sprites.png?v=2018_09_27_13_43) no-repeat right -10px}
 .havana .v-table-caption-container-align-center{text-align:center}
 .havana .v-table-caption-container-align-right{text-align:right}
 .havana .v-table-caption-container .v-icon,.havana .v-table-header-drag .v-icon{vertical-align:middle}
-.havana .v-table-body{border:1px solid #aaa}
+.havana .v-table-body{border:1px solid #aaa;overflow-anchor:none}
 .havana .v-table-row-spacer{height:10px;overflow:hidden}
 .havana .v-table-row,.havana .v-table-row-odd{background:#fff;border:0;margin:0;padding:0;cursor:pointer}
 .havana .v-table-generated-row{background:#efefef}
@@ -642,7 +643,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-table-cell-wrapper{white-space:nowrap;overflow:hidden}
 .havana .v-table-cell-wrapper-align-center{text-align:center}
 .havana .v-table-cell-wrapper-align-right{text-align:right}
-.havana .v-table-column-selector{float:right;background:transparent url(../base/common/img/sprites.png?v=2018_06_29_14_25) no-repeat 4px -37px;margin:-1.2em 0 0 0;height:1.2em;width:14px;position:relative;cursor:pointer}
+.havana .v-table-column-selector{float:right;background:transparent url(../base/common/img/sprites.png?v=2018_09_27_13_43) no-repeat 4px -37px;margin:-1.2em 0 0 0;height:1.2em;width:14px;position:relative;cursor:pointer}
 .havana .v-table.v-disabled .v-table-column-selector{cursor:default}
 .havana .v-table-focus-slot-left{border-left:2px solid #999;float:none;margin-bottom:-1.2em;width:auto;background:transparent;border-right:1px solid #aaa}
 .havana .v-table-focus-slot-right{border-right:2px solid #999;margin-left:-2px}
@@ -662,7 +663,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-table-row-drag-top .v-table-cell-wrapper{margin-top:-2px}
 .havana .v-table-row-drag-bottom .v-table-cell-content{border-bottom:2px solid #1d9dff}
 .havana .v-table-row-drag-bottom .v-table-cell-wrapper{margin-bottom:-2px}
-.havana .v-table-row-drag-top .v-table-cell-content:first-child:before,.havana .v-table-row-drag-bottom .v-table-cell-content:first-child:after{display:block;position:absolute;width:6px;height:6px;margin-top:-4px;margin-left:-6px;background:transparent url(../base/common/img/drag-slot-dot.png?v=2018_06_29_14_25)}
+.havana .v-table-row-drag-top .v-table-cell-content:first-child:before,.havana .v-table-row-drag-bottom .v-table-cell-content:first-child:after{display:block;position:absolute;width:6px;height:6px;margin-top:-4px;margin-left:-6px;background:transparent url(../base/common/img/drag-slot-dot.png?v=2018_09_27_13_43)}
 .v-ff .havana .v-table-row-drag-bottom .v-table-cell-content:first-child:after,.v-ie .havana .v-table-row-drag-bottom .v-table-cell-content:first-child:after{margin-top:-2px}
 .havana .v-tabsheet,.havana .v-tabsheet-content,.havana .v-tabsheet-deco{outline:0;text-align:left}
 .havana .v-tabsheet-tabs{empty-cells:hide;border-collapse:collapse;margin:0;padding:0;border:0;width:100%;overflow:hidden}
@@ -700,18 +701,18 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-richtextarea{border:1px solid #aaa;overflow:hidden}
 .havana .v-richtextarea .gwt-RichTextArea{background:#fff;border:0}
 .havana .v-richtextarea .gwt-HTML{height:100%;font-size:16px}
-.havana .v-richtextarea .gwt-RichTextToolbar{white-space:nowrap;background:#959595 url(../base/textfield/img/richtext-toolbar-bg.png?v=2018_06_29_14_25) repeat-x 0 -42px;border-bottom:1px solid #7d7d7d;padding:2px;overflow:hidden}
+.havana .v-richtextarea .gwt-RichTextToolbar{white-space:nowrap;background:#959595 url(../base/textfield/img/richtext-toolbar-bg.png?v=2018_09_27_13_43) repeat-x 0 -42px;border-bottom:1px solid #7d7d7d;padding:2px;overflow:hidden}
 .havana .v-richtextarea .gwt-RichTextToolbar-top{padding-bottom:1px;overflow:hidden;white-space:normal}
 .havana .v-richtextarea .gwt-RichTextToolbar-bottom{clear:left;overflow:hidden;white-space:nowrap}
-.havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton{float:left;display:inline;width:22px;height:21px;overflow:hidden;background:transparent url(../base/textfield/img/richtext-toolbar-bg.png?v=2018_06_29_14_25) repeat-x;cursor:pointer;margin-right:2px;text-align:center}
+.havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton{float:left;display:inline;width:22px;height:21px;overflow:hidden;background:transparent url(../base/textfield/img/richtext-toolbar-bg.png?v=2018_09_27_13_43) repeat-x;cursor:pointer;margin-right:2px;text-align:center}
 .havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton-down,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton-down,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton-down-hovering,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton-down-hovering{background-position:0 -21px}
 .havana .v-richtextarea .gwt-RichTextToolbar .gwt-ListBox{width:24.5%;margin-right:2px}
 .havana .v-richtextarea-readonly{border:0}
 .havana .v-tree{text-align:left;padding:1px 0;outline:0}
-.havana .v-tree-node{background:transparent url(../base/common/img/sprites.png?v=2018_06_29_14_25) no-repeat 5px -37px;padding:1px 0}
+.havana .v-tree-node{background:transparent url(../base/common/img/sprites.png?v=2018_09_27_13_43) no-repeat 5px -37px;padding:1px 0}
 .havana .v-tree-node-caption:focus{outline:0}
 .havana div.v-tree-node-leaf{background:transparent}
-.havana .v-tree-node-expanded{background:transparent url(../base/common/img/sprites.png?v=2018_06_29_14_25) no-repeat -5px -10px}
+.havana .v-tree-node-expanded{background:transparent url(../base/common/img/sprites.png?v=2018_09_27_13_43) no-repeat -5px -10px}
 .havana .v-tree-node-caption{margin-left:1em}
 .havana .v-tree-node span{cursor:pointer}
 .havana .v-tree-node-caption div{white-space:nowrap}
@@ -720,7 +721,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tree-node-children{padding-left:1em}
 .havana .v-tree .v-tree-node-drag-top{border-top:2px solid #1d9dff;margin-top:-1px;padding-top:0}
 .havana .v-tree .v-tree-node-drag-bottom{border-bottom:2px solid #1d9dff;margin-bottom:-1px;padding-bottom:0}
-.havana .v-tree .v-tree-node-drag-top:before,.havana .v-tree .v-tree-node-drag-bottom:after,.havana .v-tree .v-tree-node-caption-drag-center:after{display:block;position:absolute;width:6px;height:6px;margin-top:-4px;background:transparent url(../base/common/img/drag-slot-dot.png?v=2018_06_29_14_25)}
+.havana .v-tree .v-tree-node-drag-top:before,.havana .v-tree .v-tree-node-drag-bottom:after,.havana .v-tree .v-tree-node-caption-drag-center:after{display:block;position:absolute;width:6px;height:6px;margin-top:-4px;background:transparent url(../base/common/img/drag-slot-dot.png?v=2018_09_27_13_43)}
 .havana .v-tree .v-tree-node-drag-bottom:after{margin-top:-2px}
 .havana .v-tree .v-tree-node-caption-drag-center:after{margin-left:14px}
 .v-ff .havana .v-tree .v-tree-node-caption-drag-center:after,.v-ie .havana .v-tree .v-tree-node-caption-drag-center:after{margin-top:-2px}
@@ -730,19 +731,19 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tree .v-tree-node-caption-drag-center div{background-color:rgba(169,209,255,0.6)}
 .havana .v-tree .v-tree-node-caption-drag-center div,.havana .v-tree .v-tree-node-drag-top,.havana .v-tree .v-tree-node-drag-bottom{border-color:rgba(0,109,232,0.6)}
 .havana .v-tree-connectors .v-tree-node-caption{padding-top:1px}
-.havana .v-tree-connectors .v-tree-node{background:transparent url(../base/tree/img/connector-expand.png?v=2018_06_29_14_25) no-repeat 2px -52px}
-.havana .v-tree-connectors .v-tree-node-expanded{background:transparent url(../base/tree/img/connector-collapse.png?v=2018_06_29_14_25) no-repeat 2px -52px}
-.havana .v-tree-connectors .v-tree-node-last{background:transparent url(../base/tree/img/connector-expand-last.png?v=2018_06_29_14_25) no-repeat 2px -52px}
-.havana .v-tree-connectors .v-tree-node-expanded.v-tree-node-last{background:transparent url(../base/tree/img/connector-collapse-last.png?v=2018_06_29_14_25) no-repeat 2px -52px}
-.havana .v-tree-connectors .v-tree-node-leaf{background:transparent url(../base/tree/img/connector-leaf.png?v=2018_06_29_14_25) repeat-y 2px 50%}
-.havana .v-tree-connectors .v-tree-node-leaf-last{background:transparent url(../base/tree/img/connector-leaf-last.png?v=2018_06_29_14_25) repeat-y 2px 50%}
-.havana .v-tree-connectors .v-tree-node-children{background:transparent url(../base/tree/img/connector.png?v=2018_06_29_14_25) repeat-y 2px 0}
+.havana .v-tree-connectors .v-tree-node{background:transparent url(../base/tree/img/connector-expand.png?v=2018_09_27_13_43) no-repeat 2px -52px}
+.havana .v-tree-connectors .v-tree-node-expanded{background:transparent url(../base/tree/img/connector-collapse.png?v=2018_09_27_13_43) no-repeat 2px -52px}
+.havana .v-tree-connectors .v-tree-node-last{background:transparent url(../base/tree/img/connector-expand-last.png?v=2018_09_27_13_43) no-repeat 2px -52px}
+.havana .v-tree-connectors .v-tree-node-expanded.v-tree-node-last{background:transparent url(../base/tree/img/connector-collapse-last.png?v=2018_09_27_13_43) no-repeat 2px -52px}
+.havana .v-tree-connectors .v-tree-node-leaf{background:transparent url(../base/tree/img/connector-leaf.png?v=2018_09_27_13_43) repeat-y 2px 50%}
+.havana .v-tree-connectors .v-tree-node-leaf-last{background:transparent url(../base/tree/img/connector-leaf-last.png?v=2018_09_27_13_43) repeat-y 2px 50%}
+.havana .v-tree-connectors .v-tree-node-children{background:transparent url(../base/tree/img/connector.png?v=2018_09_27_13_43) repeat-y 2px 0}
 .havana .v-tree-connectors .v-tree-node-children-last{background:transparent}
 .havana .v-tree-connectors .v-tree-node-drag-top,.havana .v-tree-connectors .v-tree-node-expanded.v-tree-node-drag-top{background-position:2px -53px}
 .havana .v-tree-connectors .v-tree-node-drag-top.v-tree-node-leaf{background-position:2px 50%}
 .havana .v-treetable-treespacer{display:inline-block;background:transparent;height:10px;width:18px;position:absolute;left:0;top:5px}
-.havana .v-treetable-node-closed{background:url(../base/treetable/img/arrow-right.png?v=2018_06_29_14_25) right top no-repeat}
-.havana .v-treetable-node-open{background:url(../base/treetable/img/arrow-down.png?v=2018_06_29_14_25) right top no-repeat}
+.havana .v-treetable-node-closed{background:url(../base/treetable/img/arrow-right.png?v=2018_09_27_13_43) right top no-repeat}
+.havana .v-treetable-node-open{background:url(../base/treetable/img/arrow-down.png?v=2018_09_27_13_43) right top no-repeat}
 .havana .v-treetable .v-checkbox{display:inline-block;padding-bottom:4px}
 .havana .v-treetable .v-table-row .v-table-cell-content,.havana .v-treetable .v-table-row-odd .v-table-cell-content{z-index:10}
 .havana .v-treetable .v-table-cell-wrapper{position:relative}
@@ -781,15 +782,15 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-window-modalitycurtain{top:0;left:0;background:#999;opacity:.5;position:fixed;width:100%;height:100%;filter:alpha(opacity=50)}
 .havana .v-shadow-window{position:absolute;display:none;pointer-events:none}
 .v-ie8 .havana .v-shadow-window{display:block}
-.havana .v-shadow-window .top-left{position:absolute;overflow:hidden;top:-10px;left:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/top-left.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .top{position:absolute;overflow:hidden;top:-10px;left:13px;height:28px;right:13px;background:transparent url(../base/window/img/shadow/top.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .top-right{position:absolute;overflow:hidden;top:-10px;right:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/top-right.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .left{position:absolute;overflow:hidden;top:18px;left:-15px;width:28px;bottom:10px;background:transparent url(../base/window/img/shadow/left.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .center{position:absolute;overflow:hidden;top:18px;left:13px;bottom:10px;right:13px;background:transparent url(../base/window/img/shadow/center.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .right{position:absolute;overflow:hidden;top:18px;right:-15px;width:28px;bottom:10px;background:transparent url(../base/window/img/shadow/right.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .bottom-left{position:absolute;overflow:hidden;bottom:-18px;left:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/bottom-left.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .bottom{position:absolute;overflow:hidden;bottom:-18px;left:13px;right:13px;height:28px;background:transparent url(../base/window/img/shadow/bottom.png?v=2018_06_29_14_25)}
-.havana .v-shadow-window .bottom-right{position:absolute;overflow:hidden;bottom:-18px;right:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/bottom-right.png?v=2018_06_29_14_25)}
+.havana .v-shadow-window .top-left{position:absolute;overflow:hidden;top:-10px;left:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/top-left.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .top{position:absolute;overflow:hidden;top:-10px;left:13px;height:28px;right:13px;background:transparent url(../base/window/img/shadow/top.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .top-right{position:absolute;overflow:hidden;top:-10px;right:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/top-right.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .left{position:absolute;overflow:hidden;top:18px;left:-15px;width:28px;bottom:10px;background:transparent url(../base/window/img/shadow/left.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .center{position:absolute;overflow:hidden;top:18px;left:13px;bottom:10px;right:13px;background:transparent url(../base/window/img/shadow/center.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .right{position:absolute;overflow:hidden;top:18px;right:-15px;width:28px;bottom:10px;background:transparent url(../base/window/img/shadow/right.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .bottom-left{position:absolute;overflow:hidden;bottom:-18px;left:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/bottom-left.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .bottom{position:absolute;overflow:hidden;bottom:-18px;left:13px;right:13px;height:28px;background:transparent url(../base/window/img/shadow/bottom.png?v=2018_09_27_13_43)}
+.havana .v-shadow-window .bottom-right{position:absolute;overflow:hidden;bottom:-18px;right:-15px;width:28px;height:28px;background:transparent url(../base/window/img/shadow/bottom-right.png?v=2018_09_27_13_43)}
 .havana .v-ui{background:#f6f6f6;font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";color:#000;line-height:18px;height:100%;width:100%}
 .havana .v-ui input,.havana .v-ui table,.havana .v-ui select,.havana .v-ui button,.havana .v-ui label,.havana .v-ui textarea,.havana .v-window input,.havana .v-window table,.havana .v-window select,.havana .v-window button,.havana .v-window label,.havana .v-window textarea{font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS"}
 .havana .v-ui label,.havana .v-ui button,.havana .v-window label,.havana .v-window button{font-size:12px;color:#1e3146}
@@ -809,13 +810,13 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tree .v-tree-node-caption{margin-left:16px;cursor:default;padding:1px 0}
 .havana .v-tree .v-tree-node-caption span{cursor:default;padding-left:2px;padding-right:2px;padding:0 2px;display:inline;white-space:nowrap;font-size:12px;color:#1e3146}
 .havana .v-tree .v-tree-node-caption .v-icon{display:inline;vertical-align:text-bottom}
-.havana .v-tree .v-tree-node{background:transparent;background-repeat:no-repeat;background-image:url(components/tree/images/item-collapsed.png?v=2018_06_29_14_25);background-position:0 2px;cursor:pointer;padding:0}
-.havana .v-tree .v-tree-node-expanded{background-image:url(components/tree/images/item-expanded.png?v=2018_06_29_14_25)}
+.havana .v-tree .v-tree-node{background:transparent;background-repeat:no-repeat;background-image:url(components/tree/images/item-collapsed.png?v=2018_09_27_13_43);background-position:0 2px;cursor:pointer;padding:0}
+.havana .v-tree .v-tree-node-expanded{background-image:url(components/tree/images/item-expanded.png?v=2018_09_27_13_43)}
 .havana .v-tree .v-tree-node-children{cursor:default}
-.havana .v-tree .v-tree-node-children .v-tree-node{background-image:url(components/tree/images/item-collapsed.png?v=2018_06_29_14_25)}
-.havana .v-tree .v-tree-node-children .v-tree-node-expanded{background-image:url(components/tree/images/item-expanded.png?v=2018_06_29_14_25)}
-.havana .v-tree .v-tree-node.v-tree-node-leaf{background-image:url(components/tree/images/tree-line.png?v=2018_06_29_14_25);cursor:default}
-.havana .v-tree .v-tree-node.v-tree-node-leaf.v-tree-node-leaf-last{background-image:url(components/tree/images/tree-line-last.png?v=2018_06_29_14_25)}
+.havana .v-tree .v-tree-node-children .v-tree-node{background-image:url(components/tree/images/item-collapsed.png?v=2018_09_27_13_43)}
+.havana .v-tree .v-tree-node-children .v-tree-node-expanded{background-image:url(components/tree/images/item-expanded.png?v=2018_09_27_13_43)}
+.havana .v-tree .v-tree-node.v-tree-node-leaf{background-image:url(components/tree/images/tree-line.png?v=2018_09_27_13_43);cursor:default}
+.havana .v-tree .v-tree-node.v-tree-node-leaf.v-tree-node-leaf-last{background-image:url(components/tree/images/tree-line-last.png?v=2018_09_27_13_43)}
 .havana .v-tree .v-tree-node-selected span{background:#5daee8;color:#000;padding:0 2px}
 .havana .v-tree>div [role="tree"]{padding:5px}
 .havana .v-tree-focus,.havana .v-tree:focus{border-color:#4d7ab2}
@@ -838,8 +839,8 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-table .v-table-arow-row{box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;height:24px;border-right:1px solid #a5c4e0}
 .havana .v-table .v-table-arow-row>.v-table-cell-content{border-bottom:0}
 .havana .v-table .v-table-footer{background:#ccc}
-.havana .v-table .v-table-cell-content.boolean-cell-true .v-table-cell-wrapper{color:transparent;font-size:0;height:13px;background:no-repeat left center;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -0px}
-.havana .v-table .v-table-cell-content.boolean-cell-false .v-table-cell-wrapper{color:transparent;font-size:0;height:13px;background:no-repeat left center;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -13px}
+.havana .v-table .v-table-cell-content.boolean-cell-true .v-table-cell-wrapper{color:transparent;font-size:0;height:13px;background:no-repeat left center;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -0px}
+.havana .v-table .v-table-cell-content.boolean-cell-false .v-table-cell-wrapper{color:transparent;font-size:0;height:13px;background:no-repeat left center;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -13px}
 .havana .v-table .v-table-header-wrap{height:23px;background:#e6eaef;border:1px solid #a5c4e0;border-bottom:0;overflow:hidden;position:relative}
 .havana .v-table .v-table-header-wrap .v-table-header{height:23px}
 .havana .v-table .v-table-header-wrap .v-table-header .v-table-caption-container{color:#1e3146;height:23px;float:left;overflow:hidden;white-space:nowrap;padding-top:3px;margin-left:5px;font-size:11px}
@@ -875,17 +876,17 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-table .v-table-header-cell{position:relative}
 .havana .v-table .v-table-header-cell .v-table-sort-indicator{display:none}
 .havana .v-table .v-table-header-cell.v-table-header-sortable .v-table-sort-indicator{display:block;width:10px;height:12px;background:transparent;background-repeat:no-repeat;margin-right:3px;margin-top:4px;position:absolute;right:5px}
-.havana .v-table .v-table-header-cell .v-table-sort-indicator{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -26px;opacity:0}
-.havana .v-table .v-table-header-cell-asc .v-table-sort-indicator{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -39px}
-.havana .v-table .v-table-header-cell-desc .v-table-sort-indicator{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -50px}
-.havana .v-table .v-table-column-selector{width:16px;height:16px;margin-top:-20px;margin-right:2px;background:transparent;background-repeat:no-repeat;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -61px}
-.havana .v-table .v-table-scrollposition{width:160px;height:39px;border:0;border-top:5px solid transparent;background:transparent;background-origin:content-box;background-clip:content-box;background-repeat:no-repeat;background-image:url('compiled/components-large.png?v=2018_06_29_14_25');background-position:left -0px}
+.havana .v-table .v-table-header-cell .v-table-sort-indicator{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -26px;opacity:0}
+.havana .v-table .v-table-header-cell-asc .v-table-sort-indicator{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -39px}
+.havana .v-table .v-table-header-cell-desc .v-table-sort-indicator{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -50px}
+.havana .v-table .v-table-column-selector{width:16px;height:16px;margin-top:-20px;margin-right:2px;background:transparent;background-repeat:no-repeat;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -61px}
+.havana .v-table .v-table-scrollposition{width:160px;height:39px;border:0;border-top:5px solid transparent;background:transparent;background-origin:content-box;background-clip:content-box;background-repeat:no-repeat;background-image:url('compiled/components-large.png?v=2018_09_27_13_43');background-position:left -0px}
 .havana .v-table .v-table-scrollposition span{display:block;margin-top:8px;text-align:center;font-weight:bold;border:0}
 .havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem{font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS"}
 .havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem div{padding:2px 8px 2px 18px}
-.havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem .v-on div{background:transparent url(components/table/images/check.png?v=2018_06_29_14_25) no-repeat 5px 50%}
+.havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem .v-on div{background:transparent url(components/table/images/check.png?v=2018_09_27_13_43) no-repeat 5px 50%}
 .havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem-selected div{background:#4d7ab2}
-.havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem-selected .v-on div{background:#4d7ab2 url(components/table/images/check-hover.png?v=2018_06_29_14_25) no-repeat 5px 50%;color:#fff}
+.havana .v-table-column-selector-popup.v-contextmenu .gwt-MenuItem-selected .v-on div{background:#4d7ab2 url(components/table/images/check-hover.png?v=2018_09_27_13_43) no-repeat 5px 50%;color:#fff}
 .havana .v-table-header-drag{position:absolute;background:#e7edf3;border:1px solid #b6bbbc;opacity:.5;filter:alpha(opacity=50);margin-top:20px;z-index:30000;height:23px;line-height:normal}
 .havana .v-table>div:focus{outline:0}
 .havana .v-table>div:focus,.havana .v-table.v-table-body-focus .v-table-body.v-table-body-wrapper{border-color:#4d7ab2}
@@ -911,19 +912,19 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-window .v-window-wrap .v-window-outerheader .v-window-header .v-icon{vertical-align:middle}
 .havana .v-window .v-window-wrap .v-window-closebox,.havana .v-window .v-window-wrap .v-window-maximizebox,.havana .v-window .v-window-wrap .v-window-restorebox{position:absolute;top:10px;width:9px;height:9px;background:transparent;background-repeat:no-repeat;cursor:pointer;overflow:hidden}
 .havana .v-window .v-window-wrap .v-window-closebox:focus,.havana .v-window .v-window-wrap .v-window-maximizebox:focus,.havana .v-window .v-window-wrap .v-window-restorebox:focus{outline:0}
-.havana .v-window .v-window-wrap .v-window-closebox{right:7px;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -77px}
-.havana .v-window .v-window-wrap .v-window-closebox:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -86px}
-.havana .v-window .v-window-wrap .v-window-maximizebox,.havana .v-window .v-window-wrap .v-window-restorebox{right:20px;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -95px}
-.havana .v-window .v-window-wrap .v-window-maximizebox:hover,.havana .v-window .v-window-wrap .v-window-restorebox:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -104px}
+.havana .v-window .v-window-wrap .v-window-closebox{right:7px;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -77px}
+.havana .v-window .v-window-wrap .v-window-closebox:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -86px}
+.havana .v-window .v-window-wrap .v-window-maximizebox,.havana .v-window .v-window-wrap .v-window-restorebox{right:20px;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -95px}
+.havana .v-window .v-window-wrap .v-window-maximizebox:hover,.havana .v-window .v-window-wrap .v-window-restorebox:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -104px}
 .havana .v-window .v-window-wrap .v-window-contents{background:#fff;color:#1e3146;padding:8px;font-size:12px;font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";border:1px solid #8aa9d1}
 .havana .v-window .v-window-wrap .v-window-contents>.v-scrollable>.v-layout:first-child{padding-top:5px}
 .havana .v-window .v-window-wrap .v-window-footer{height:10px;background:transparent}
-.havana .v-window .v-window-wrap .v-window-footer .v-window-resizebox{position:absolute;right:1px;bottom:1px;width:10px;height:10px;cursor:se-resize;background:transparent;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -113px;overflow:hidden}
+.havana .v-window .v-window-wrap .v-window-footer .v-window-resizebox{position:absolute;right:1px;bottom:1px;width:10px;height:10px;cursor:se-resize;background:transparent;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -113px;overflow:hidden}
 .havana .v-window .v-window-wrap .v-window-footer .v-window-resizebox-disabled{cursor:default;background:transparent}
 .havana .v-window .v-window-wrap .v-window-footer-noresize{height:8px}
 .havana .v-window-outerheader .v-window-header .v-icon{margin-right:5px}
 .havana .v-window-modalitycurtain{background-image:none}
-.havana .v-button{display:inline-table;zoom:1;text-align:center;text-decoration:none;border:#9bb3d3 1px solid;background:transparent url(components/button/images/button.gif?v=2018_06_29_14_25) repeat-x;cursor:pointer;white-space:nowrap;margin:0;height:25px;padding:0 5px;color:inherit;line-height:normal;-khtml-user-select:none;-moz-user-select:none;-ie-user-select:none;user-select:none;outline:0;font-size:12px}
+.havana .v-button{display:inline-table;zoom:1;text-align:center;text-decoration:none;border:#9bb3d3 1px solid;background:transparent url(components/button/images/button.gif?v=2018_09_27_13_43) repeat-x;cursor:pointer;white-space:nowrap;margin:0;height:25px;padding:0 5px;color:inherit;line-height:normal;-khtml-user-select:none;-moz-user-select:none;-ie-user-select:none;user-select:none;outline:0;font-size:12px}
 .havana .v-button .v-button-wrap{display:table-cell;vertical-align:middle}
 .havana .v-button .v-button-wrap .v-button-caption{font:inherit;font-size:12px;line-height:18px;font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";vertical-align:middle;white-space:nowrap;color:#1e3146}
 .havana .v-align-top>.v-button.v-widget,.havana .v-align-bottom>.v-button.v-widget,.havana .v-align-middle>.v-button.v-widget,.havana .v-align-center>.v-button.v-widget,.havana .v-align-left>.v-button.v-widget,.havana .v-align-right>.v-button.v-widget{display:inline-table}
@@ -933,9 +934,9 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-disabled.v-button-link:focus{border:1px solid transparent}
 .havana .v-button-empty-caption .v-button-caption{display:none}
 .havana .v-button-empty-caption .v-button-wrap .v-icon{margin-right:0}
-.havana .v-button:hover{background:transparent url(components/button/images/button-hover.gif?v=2018_06_29_14_25) repeat-x}
-.havana .v-button:active{background:transparent url(components/button/images/button-pressed.png?v=2018_06_29_14_25) repeat-x}
-.havana .v-disabled.v-button:hover,.havana .v-disabled.v-button:active{background:transparent url(components/button/images/button.gif?v=2018_06_29_14_25) repeat-x}
+.havana .v-button:hover{background:transparent url(components/button/images/button-hover.gif?v=2018_09_27_13_43) repeat-x}
+.havana .v-button:active{background:transparent url(components/button/images/button-pressed.png?v=2018_09_27_13_43) repeat-x}
+.havana .v-disabled.v-button:hover,.havana .v-disabled.v-button:active{background:transparent url(components/button/images/button.gif?v=2018_09_27_13_43) repeat-x}
 .havana .v-button-link{border:1px solid transparent;text-align:left;background:transparent;padding:0;height:auto}
 .havana .v-button-link .v-button-wrap{background:transparent;height:inherit;padding:0;margin-top:0}
 .havana .v-button-link .v-button-wrap .v-button-caption{text-decoration:underline;color:#06f;text-align:left}
@@ -967,7 +968,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-menubar-submenu .v-menubar-menuitem:hover .v-menubar-menuitem-caption,.havana .v-menubar-submenu .v-menubar-menuitem-selected .v-menubar-menuitem-caption{background-color:#506d8d}
 .havana .v-menubar-submenu .v-menubar-menuitem-selected div{color:#fff}
 .havana .v-menubar-submenu .v-menubar-submenu-indicator{background:transparent;display:table-cell;min-width:10px;position:relative;text-align:right;right:auto;width:auto;height:auto}
-.havana .v-menubar-submenu .v-menubar-submenu-indicator-icon{margin-top:1px;display:inline-block;width:16px;height:16px;min-width:10px;text-indent:-9999px;background:transparent;background-repeat:no-repeat;background-position:right center;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -123px}
+.havana .v-menubar-submenu .v-menubar-submenu-indicator-icon{margin-top:1px;display:inline-block;width:16px;height:16px;min-width:10px;text-indent:-9999px;background:transparent;background-repeat:no-repeat;background-position:right center;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -123px}
 .havana .v-menubar-submenu .v-menubar-submenu-indicator-icon .text{visibility:hidden}
 .havana .v-menubar-submenu .v-menubar-submenu-indicator+.v-menubar-menuitem-caption{padding-right:10px}
 .havana .v-menubar-submenu .v-menubar-submenu-check-column{padding-left:6px}
@@ -977,7 +978,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-caption{font-size:12px}
 .havana .v-caption .v-required-field-indicator{width:10px;color:#f00}
 .havana .v-caption .v-errorindicator:hover,.havana .v-caption .v-required-field-indicator:hover{cursor:pointer}
-.havana .v-caption .c-context-help-button{display:inline-block;color:transparent;background:transparent no-repeat top right;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -139px;width:16px;height:16px}
+.havana .v-caption .c-context-help-button{display:inline-block;color:transparent;background:transparent no-repeat top right;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -139px;width:16px;height:16px}
 .havana .v-caption .c-context-help-button:hover{cursor:pointer}
 .havana .v-caption .v-captiontext{padding-bottom:2px}
 .havana .v-slot>.v-caption{line-height:25px}
@@ -996,7 +997,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-disabled.v-checkbox-focus,.havana .v-checkbox.v-checkbox-empty-caption,.havana .v-checkbox.v-checkbox-focus.v-checkbox-empty-caption{border:transparent 1px solid}
 .havana .v-checkbox-focus.v-checkbox-empty-caption>input{outline:1px dotted #4d7ab2}
 .havana .v-disabled.v-checkbox-focus.v-checkbox-empty-caption>input{outline:0}
-.havana .c-context-help-button{display:inline-block;color:transparent;background:transparent no-repeat top right;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -139px;width:16px;height:16px}
+.havana .c-context-help-button{display:inline-block;color:transparent;background:transparent no-repeat top right;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -139px;width:16px;height:16px}
 .havana .c-context-help-button:hover{cursor:pointer}
 .havana .v-tabsheet .v-tabsheet-spacertd{width:100%}
 .havana .v-tabsheet .v-tabsheet-spacertd div{height:28px;border-top:0;background:transparent;border-left:0;border-bottom:1px solid #647e9b}
@@ -1009,10 +1010,10 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tabsheet .v-tabsheet-scrollerPrev:focus,.havana .v-tabsheet .v-tabsheet-scrollerNext:focus{outline:0}
 .havana .v-tabsheet .v-tabsheet-scrollerPrev-disabled,.havana .v-tabsheet .v-tabsheet-scrollerNext-disabled{border:0;width:16px;height:16px;opacity:.9999;color:#fff;background:transparent none;outline:0}
 .havana .v-tabsheet .v-tabsheet-scrollerPrev-disabled:focus,.havana .v-tabsheet .v-tabsheet-scrollerNext-disabled:focus{outline:0}
-.havana .v-tabsheet .v-tabsheet-scrollerNext,.havana .v-tabsheet .v-tabsheet-scrollerNext:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -155px}
-.havana .v-tabsheet .v-tabsheet-scrollerPrev,.havana .v-tabsheet .v-tabsheet-scrollerPrev:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -171px}
+.havana .v-tabsheet .v-tabsheet-scrollerNext,.havana .v-tabsheet .v-tabsheet-scrollerNext:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -155px}
+.havana .v-tabsheet .v-tabsheet-scrollerPrev,.havana .v-tabsheet .v-tabsheet-scrollerPrev:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -171px}
 .havana .v-tabsheet>.v-tabsheet-tabcontainer{height:33px}
-.havana .v-tabsheet>.v-tabsheet-tabcontainer{background:url(components/tabsheet/images/top-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .v-tabsheet>.v-tabsheet-tabcontainer{background:url(components/tabsheet/images/top-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .v-tabsheet .v-tabsheet-tabs{empty-cells:hide;border-collapse:collapse;margin:0;padding:0;border:0;height:33px;width:100%;overflow:hidden}
 .havana .v-tabsheet .v-tabsheet-tabs .v-caption{white-space:nowrap}
 .havana .v-tabsheet .v-tabsheet-tabs .v-caption span{white-space:nowrap}
@@ -1024,18 +1025,18 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption .v-captiontext{border:1px solid transparent;color:#fff}
 .havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-caption .v-captiontext{color:#1e3146}
 .havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-disabled{color:#fff}
-.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-tabsheet-caption-close{cursor:pointer;width:12px;height:12px;background:transparent;background-position:left center;background-repeat:no-repeat;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -187px;text-indent:100px;overflow:hidden;font-size:20px;float:right;margin:2px -4px 0 0}
-.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-tabsheet-caption-close:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -199px}
+.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-tabsheet-caption-close{cursor:pointer;width:12px;height:12px;background:transparent;background-position:left center;background-repeat:no-repeat;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -187px;text-indent:100px;overflow:hidden;font-size:20px;float:right;margin:2px -4px 0 0}
+.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-tabsheet-caption-close:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -199px}
 .havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-caption{background:0;margin:0 -1px 0 0;padding:2px 4px 5px 2px;overflow:visible}
-.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-tabsheet-caption-close{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -211px}
-.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-tabsheet-caption-close:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -199px}
-.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected-first,.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected{border-top:1px solid #647e9b;border-left:1px solid #647e9b;border-right:1px solid #647e9b;background:url(components/tabsheet/images/main-tabitem-bg.png?v=2018_06_29_14_25) repeat-x;border-bottom:0;height:28px;cursor:default;padding:3px 6px 0 6px}
+.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-tabsheet-caption-close{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -211px}
+.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-tabsheet-caption-close:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -199px}
+.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected-first,.havana .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem.v-tabsheet-tabitem-selected{border-top:1px solid #647e9b;border-left:1px solid #647e9b;border-right:1px solid #647e9b;background:url(components/tabsheet/images/main-tabitem-bg.png?v=2018_09_27_13_43) repeat-x;border-bottom:0;height:28px;cursor:default;padding:3px 6px 0 6px}
 .havana .v-tabsheet .v-tabsheet-deco{height:1px;background:#fff;margin-left:0}
 .havana .v-tabsheet .v-tabsheet-loading .v-tabsheet-tabitem.v-tabsheet-tabitem-selected .v-captiontext{background:transparent;margin-left:-5px;padding-left:5px;margin-right:-20px;padding-right:20px;margin-top:-2px;padding-top:2px}
-.havana .v-tabsheet .v-tabsheet-content{background:#fff url(components/tabsheet/images/main-tabpanel-bg.png?v=2018_06_29_14_25) repeat-x;border:0;position:relative}
+.havana .v-tabsheet .v-tabsheet-content{background:#fff url(components/tabsheet/images/main-tabpanel-bg.png?v=2018_09_27_13_43) repeat-x;border:0;position:relative}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-spacertd div{border-bottom:0}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet>.v-tabsheet-tabcontainer{background:transparent none}
-.havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/middle-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/middle-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem{border-left:1px solid #b4d0e4;height:14px;line-height:14px;margin-bottom:9px;padding-top:0;padding-left:5px}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption{height:20px;padding:0 6px 5px 4px}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption .v-captiontext{color:#1e3146}
@@ -1047,7 +1048,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell.c-tab-sibling-visible .v-tabsheet-tabitem{border-left:1px transparent;padding-left:0}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content{border:1px solid #b4d0e4;border-top-style:none;background:#f5f7f9}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-deco{background:transparent}
-.havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/inner-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/inner-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem{border-left:1px solid #a4c5df;height:14px;line-height:14px;margin-bottom:9px;padding-top:0;padding-left:5px}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem .v-caption{height:20px;padding:0 6px 5px 4px}
 .havana .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem .v-caption .v-captiontext{color:#2b4666}
@@ -1062,7 +1063,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-tabsheet-tabitemcell .v-caption .v-icon+.v-captiontext{margin-left:2px}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-spacertd div{border-bottom:0}
 .havana .v-window-contents .v-tabsheet>.v-tabsheet-tabcontainer{background:transparent none}
-.havana .v-window-contents .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/middle-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .v-window-contents .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/middle-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem{border-left:1px solid #b4d0e4;height:14px;line-height:14px;margin-bottom:9px;padding-top:0;padding-left:5px}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption{height:20px;padding:0 6px 5px 4px}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption .v-captiontext{color:#1e3146}
@@ -1074,7 +1075,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-window-contents .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell.c-tab-sibling-visible .v-tabsheet-tabitem{border-left:1px transparent;padding-left:0}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-content{border:1px solid #b4d0e4;border-top-style:none;background:#f5f7f9}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-deco{background:transparent}
-.havana .v-window-contents .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/inner-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .v-window-contents .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/inner-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem{border-left:1px solid #a4c5df;height:14px;line-height:14px;margin-bottom:9px;padding-top:0;padding-left:5px}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem .v-caption{height:20px;padding:0 6px 5px 4px}
 .havana .v-window-contents .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem .v-caption .v-captiontext{color:#2b4666}
@@ -1098,16 +1099,16 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-data-grid-composition.has-top-panel{padding-top:31px}
 .havana .c-data-grid-composition.has-top-panel .c-data-grid-top{height:25px;margin-top:-31px}
 .havana .v-grid-cell .boolean-value{height:13px;width:13px}
-.havana .v-grid-cell .boolean-value-true{background:url(components/datagrid/sprites/checkbox-checked.png?v=2018_06_29_14_25) no-repeat left center}
-.havana .v-grid-cell .boolean-value-false{background:url(components/datagrid/sprites/checkbox-unchecked.png?v=2018_06_29_14_25) no-repeat left center}
+.havana .v-grid-cell .boolean-value-true{background:url(components/datagrid/sprites/checkbox-checked.png?v=2018_09_27_13_43) no-repeat left center}
+.havana .v-grid-cell .boolean-value-false{background:url(components/datagrid/sprites/checkbox-unchecked.png?v=2018_09_27_13_43) no-repeat left center}
 .havana .v-grid-cell.sort-asc:after,.havana .v-grid-cell.sort-desc:after{cursor:pointer}
 .havana .v-grid-body .v-grid-row{cursor:pointer}
 .havana .v-textarea{outline:0;padding:2px;-ms-overflow-y:auto;border:1px solid #a5c4e0;margin:0;font-size:12px;text-align:left;background:#fff}
 .havana .v-textarea:focus{border-color:#4d7ab2;outline:0}
 .havana .v-textarea.v-readonly{background:transparent;border:#c3c3c3 1px solid}
 .havana .v-textarea.c-disabled-or-readonly.c-empty-value{color:transparent}
-.havana .v-treetable .v-treetable-node-open{background-image:url(components/tree/images/item-expanded.png?v=2018_06_29_14_25)}
-.havana .v-treetable .v-treetable-node-closed{background-image:url(components/tree/images/item-collapsed.png?v=2018_06_29_14_25)}
+.havana .v-treetable .v-treetable-node-open{background-image:url(components/tree/images/item-expanded.png?v=2018_09_27_13_43)}
+.havana .v-treetable .v-treetable-node-closed{background-image:url(components/tree/images/item-collapsed.png?v=2018_09_27_13_43)}
 .havana .v-treetable .v-treetable-treespacer{top:1px;height:12px;cursor:pointer}
 .havana .v-textfield{padding:2px;border:1px solid #a5c4e0;margin:0;font-size:12px;height:25px;text-align:left;background:#fff}
 .havana .v-textfield:focus{border-color:#4d7ab2;outline:0}
@@ -1129,7 +1130,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-datefield-popupcalendar{padding-right:25px}
 .havana .v-datefield-popupcalendar.v-readonly{padding-right:0}
 .havana .v-datefield-popupcalendar.v-readonly .v-datefield-button{display:none}
-.havana .v-datefield-button{font-size:12px;height:25px;width:25px;margin:0;border:solid 1px #a5c4e0;margin-right:-25px;border-left:0;background:#fff;background-repeat:no-repeat;background-origin:border-box;background-clip:border-box;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -223px;vertical-align:top;cursor:pointer;outline:0}
+.havana .v-datefield-button{font-size:12px;height:25px;width:25px;margin:0;border:solid 1px #a5c4e0;margin-right:-25px;border-left:0;background:#fff;background-repeat:no-repeat;background-origin:border-box;background-clip:border-box;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -223px;vertical-align:top;cursor:pointer;outline:0}
 .havana .v-datefield-button-focus{border:#4d7ab2 solid 1px;border-left:0}
 .havana .v-datefield-button-readonly{display:none;visibility:hidden}
 .havana .v-datefield-popup{font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";color:#000;font-size:12px;background:#fff;border:#8aa9d1 solid 1px;padding:6px}
@@ -1142,14 +1143,14 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-datefield-calendarpanel strong{color:#cd3331;display:block;padding-right:3px;padding-left:3px;font-size:12px}
 .havana .v-datefield-calendarpanel .v-button-prevyear,.havana .v-datefield-calendarpanel .v-button-nextyear,.havana .v-datefield-calendarpanel .v-button-nextmonth,.havana .v-datefield-calendarpanel .v-button-prevmonth{outline:0;display:block;width:15px;height:15px;border:0;padding:0;text-indent:-90000px;margin:0 auto;background:transparent;background-position:middle center;background-repeat:no-repeat}
 .havana .v-datefield-calendarpanel .v-button-prevyear:focus,.havana .v-datefield-calendarpanel .v-button-nextyear:focus,.havana .v-datefield-calendarpanel .v-button-nextmonth:focus,.havana .v-datefield-calendarpanel .v-button-prevmonth:focus{outline:0}
-.havana .v-datefield-calendarpanel .v-button-prevmonth{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -248px}
-.havana .v-datefield-calendarpanel .v-button-prevmonth:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -263px}
-.havana .v-datefield-calendarpanel .v-button-nextmonth{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -278px}
-.havana .v-datefield-calendarpanel .v-button-nextmonth:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -293px}
-.havana .v-datefield-calendarpanel .v-button-nextyear{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -308px}
-.havana .v-datefield-calendarpanel .v-button-nextyear:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -323px}
-.havana .v-datefield-calendarpanel .v-button-prevyear{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -338px}
-.havana .v-datefield-calendarpanel .v-button-prevyear:hover{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -353px}
+.havana .v-datefield-calendarpanel .v-button-prevmonth{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -248px}
+.havana .v-datefield-calendarpanel .v-button-prevmonth:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -263px}
+.havana .v-datefield-calendarpanel .v-button-nextmonth{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -278px}
+.havana .v-datefield-calendarpanel .v-button-nextmonth:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -293px}
+.havana .v-datefield-calendarpanel .v-button-nextyear{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -308px}
+.havana .v-datefield-calendarpanel .v-button-nextyear:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -323px}
+.havana .v-datefield-calendarpanel .v-button-prevyear{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -338px}
+.havana .v-datefield-calendarpanel .v-button-prevyear:hover{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -353px}
 .havana .v-datefield-calendarpanel-month{font-weight:bold;text-align:center;white-space:nowrap}
 .havana .v-datefield-calendarpanel-day{border:1px solid transparent;height:14px}
 .havana .v-datefield-calendarpanel-day-today{border:1px solid #4d7ab2;height:14px}
@@ -1170,22 +1171,22 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-caption-popupview-icon-on-left{display:inline-block!important}
 .havana .v-splitpanel-horizontal,.havana .v-splitpanel-vertical{overflow:hidden}
 .havana .v-splitpanel-horizontal .v-splitpanel-hsplitter{width:4px}
-.havana .v-splitpanel-horizontal .v-splitpanel-hsplitter div{width:4px;font-size:1px;position:absolute;top:0;bottom:0;background:#eef3f9 url(components/splitpanel/images/ruler-vertical.png?v=2018_06_29_14_25) center no-repeat;cursor:e-resize;margin:0}
+.havana .v-splitpanel-horizontal .v-splitpanel-hsplitter div{width:4px;font-size:1px;position:absolute;top:0;bottom:0;background:#eef3f9 url(components/splitpanel/images/ruler-vertical.png?v=2018_09_27_13_43) center no-repeat;cursor:e-resize;margin:0}
 .havana .v-splitpanel-vertical .v-splitpanel-vsplitter{height:10px}
-.havana .v-splitpanel-vertical .v-splitpanel-vsplitter div{height:6px;background:#eef3f9 url(components/splitpanel/images/ruler-horizontal.png?v=2018_06_29_14_25) center no-repeat;border:0;cursor:n-resize;margin:0}
+.havana .v-splitpanel-vertical .v-splitpanel-vsplitter div{height:6px;background:#eef3f9 url(components/splitpanel/images/ruler-horizontal.png?v=2018_09_27_13_43) center no-repeat;border:0;cursor:n-resize;margin:0}
 .havana .c-splitpanel-dock-button{cursor:pointer;width:11px;height:40px;background:transparent}
-.havana .c-splitpanel-dock-button-left{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -368px}
-.havana .c-splitpanel-dock-button-right{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -408px}
+.havana .c-splitpanel-dock-button-left{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -368px}
+.havana .c-splitpanel-dock-button-right{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -408px}
 .havana .c-splitpanel-dockable-right>div>.v-splitpanel-hsplitter>div,.havana .c-splitpanel-dockable-left>div>.v-splitpanel-hsplitter>div{background:transparent none}
-.havana .c-splitpanel-dockable-left>div>.v-splitpanel-hsplitter{width:5px;background:url(components/splitpanel/images/dockable-split-left.png?v=2018_06_29_14_25) center repeat-y}
-.havana .c-splitpanel-dockable-right>div>.v-splitpanel-hsplitter{width:5px;background:url(components/splitpanel/images/dockable-split-right.png?v=2018_06_29_14_25) center repeat-y}
+.havana .c-splitpanel-dockable-left>div>.v-splitpanel-hsplitter{width:5px;background:url(components/splitpanel/images/dockable-split-left.png?v=2018_09_27_13_43) center repeat-y}
+.havana .c-splitpanel-dockable-right>div>.v-splitpanel-hsplitter{width:5px;background:url(components/splitpanel/images/dockable-split-right.png?v=2018_09_27_13_43) center repeat-y}
 .havana .v-gridlayout{outline:0}
 .havana .c-pivot-table{user-select:text;overflow:auto}
 .havana .c-pivot-table table.pvtTable{font-size:11px}
 .havana .c-pivot-table table.pvtTable tbody tr th,.havana .c-pivot-table table.pvtTable thead tr th{font-size:11px}
 .havana .c-pivot-table table.pvtTable tbody tr td,.havana .c-pivot-table .pvtUi,.havana .c-pivot-table .pvtTriangle{color:#1e3146}
 .havana .c-pivot-table table.pvtTable tbody tr td,.havana .c-pivot-table .pvtFilterBox{background-color:#fff}
-.havana .c-pivot-table select.pvtRenderer,.havana .c-pivot-table select.pvtAggregator,.havana .c-pivot-table select.pvtAttrDropdown,.havana .c-pivot-table .pvtAxisContainer li span.pvtAttr{display:inline-table;zoom:1;text-align:center;text-decoration:none;border:#9bb3d3 1px solid;background:transparent url(components/pivottable/images/button.gif?v=2018_06_29_14_25) repeat-x;cursor:pointer;white-space:nowrap;margin:0;padding:0 5px;color:inherit;line-height:normal;user-select:none;outline:0;font-size:12px}
+.havana .c-pivot-table select.pvtRenderer,.havana .c-pivot-table select.pvtAggregator,.havana .c-pivot-table select.pvtAttrDropdown,.havana .c-pivot-table .pvtAxisContainer li span.pvtAttr{display:inline-table;zoom:1;text-align:center;text-decoration:none;border:#9bb3d3 1px solid;background:transparent url(components/pivottable/images/button.gif?v=2018_09_27_13_43) repeat-x;cursor:pointer;white-space:nowrap;margin:0;padding:0 5px;color:inherit;line-height:normal;user-select:none;outline:0;font-size:12px}
 .havana .c-pivot-table .pvtAxisContainer,.havana .c-pivot-table .pvtVals,.havana .c-pivot-table table.pvtTable thead tr th,.havana .c-pivot-table table.pvtTable tbody tr th{background-color:#e6eaef}
 .havana .c-pivot-table .pvtAxisContainer li.pvtPlaceholder,.havana .c-pivot-table .pvtAxisContainer li span.pvtAttr{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
 .havana .c-pivot-table.v-disabled{opacity:.5;pointer-events:none}
@@ -1206,7 +1207,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-popupbutton-popup .c-cm-button.v-button-link:focus{border:1px solid transparent}
 .havana .v-popupbutton-popup{border-radius:0}
 .havana .v-popupbutton.icon-only .v-popup-indicator{padding-left:0}
-.havana .v-button.v-popupbutton .v-popup-indicator{vertical-align:middle;height:12px;width:12px;margin-left:3px;background:transparent;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -448px;background-repeat:no-repeat}
+.havana .v-button.v-popupbutton .v-popup-indicator{vertical-align:middle;height:12px;width:12px;margin-left:3px;background:transparent;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -448px;background-repeat:no-repeat}
 .havana .v-button.v-popupbutton .v-popup-indicator:before{content:none}
 .havana .v-contextmenu{font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";font-size:12px;color:#222;background:#fff;border:1px solid #4d7ab2}
 .havana .v-contextmenu .popupContent{padding:3px}
@@ -1246,7 +1247,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-Notification h1{display:block;text-align:center;font-size:24px}
 .havana .v-Notification p{white-space:normal;font-size:14px}
 .havana .v-Notification.warning{background:#fff1e4;color:#dd3400;border:2px solid #ffaa90;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;opacity:1}
-.havana .v-Notification.error{background:#f23d00 url(components/notification/images/close-error.png?v=2018_06_29_14_25) no-repeat right 5px;padding-right:30px;border:3px solid #c30000;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px}
+.havana .v-Notification.error{background:#f23d00 url(components/notification/images/close-error.png?v=2018_09_27_13_43) no-repeat right 5px;padding-right:30px;border:3px solid #c30000;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px}
 .havana .v-Notification.warning,.havana .v-Notification.error{-webkit-animation:none;-moz-animation:none;animation:none}
 .havana .v-Notification.tray{background:#575e60;padding:.5em;margin:0 5px 5px 0;max-width:50%}
 .havana .v-Notification.tray h1{display:block;font-weight:bold;font-size:.9em;line-height:1.1;background:#3b4245;padding:4px 10px;margin:0;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;text-align:left}
@@ -1257,12 +1258,12 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-filterselect{box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;line-height:0;height:25px;white-space:nowrap;text-align:left;overflow:hidden;background:#fff;padding-right:25px;border-left:1px solid #a5c4e0}
 .havana .v-filterselect .v-icon{float:left}
 .havana .v-filterselect .v-filterselect-input{box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;background-color:transparent;outline:0;border:1px solid #a5c4e0;border-left:0;height:25px;margin:0;padding:0;font-size:8pt}
-.havana .v-filterselect .v-filterselect-button{box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;cursor:pointer;height:100%;width:25px;margin-right:-25px;border-collapse:separate;background:transparent;background-repeat:no-repeat;background-position:middle center;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -460px;border:1px solid #a5c4e0;border-left:0}
+.havana .v-filterselect .v-filterselect-button{box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;cursor:pointer;height:100%;width:25px;margin-right:-25px;border-collapse:separate;background:transparent;background-repeat:no-repeat;background-position:middle center;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -460px;border:1px solid #a5c4e0;border-left:0}
 .havana .v-filterselect-focus{background:#fff;border-left:1px solid #4d7ab2}
-.havana .v-filterselect-focus .v-filterselect-button{border:1px solid #4d7ab2;border-left:0;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -485px}
+.havana .v-filterselect-focus .v-filterselect-button{border:1px solid #4d7ab2;border-left:0;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -485px}
 .havana .v-filterselect-focus .v-filterselect-input:focus{border:1px solid #4d7ab2;border-left:0}
 .havana .v-filterselect.v-readonly{padding-right:0;border-left:1px solid #c3c3c3}
-.havana .v-filterselect.v-readonly .v-filterselect-button{border:1px solid #c3c3c3;border-left:0;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -510px}
+.havana .v-filterselect.v-readonly .v-filterselect-button{border:1px solid #c3c3c3;border-left:0;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -510px}
 .havana .v-filterselect.v-readonly .v-filterselect-input-readonly{border:1px solid #c3c3c3;border-left:0}
 .havana .v-filterselect-suggestpopup{border:1px solid #8aa9d1;font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";color:#000;font-size:12px;line-height:18px;margin-top:-1px;background:#f5f5f5 repeat-x}
 .havana .v-filterselect-suggestpopup .gwt-MenuItem{padding:1px 6px;cursor:pointer;height:18px;line-height:15px;white-space:nowrap}
@@ -1273,15 +1274,15 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-filterselect-nextpage-off span,.havana .v-filterselect-prevpage-off span{cursor:default}
 .havana .v-filterselect-nextpage span,.havana .v-filterselect-nextpage-off span,.havana .v-filterselect-prevpage-off span,.havana .v-filterselect-prevpage span{background-repeat:no-repeat;display:block;height:12px;width:100%;text-indent:-90000px;cursor:pointer;overflow:hidden;width:56px;position:absolute;left:50%;margin-left:-28px}
 .havana .v-filterselect-status{font-size:11px;line-height:11px;width:100%;padding:4px 0;height:11px;white-space:nowrap;text-align:center;border-top:1px solid #b6bbbc}
-.havana .v-filterselect-nextpage span{background-image:url('compiled/components-large.png?v=2018_06_29_14_25');background-position:left -39px}
-.havana .v-filterselect-prevpage span{background-image:url('compiled/components-large.png?v=2018_06_29_14_25');background-position:left -53px}
-.havana .v-filterselect-nextpage-off span{background-image:url('compiled/components-large.png?v=2018_06_29_14_25');background-position:left -67px}
-.havana .v-filterselect-prevpage-off span{background-image:url('compiled/components-large.png?v=2018_06_29_14_25');background-position:left -79px}
+.havana .v-filterselect-nextpage span{background-image:url('compiled/components-large.png?v=2018_09_27_13_43');background-position:left -39px}
+.havana .v-filterselect-prevpage span{background-image:url('compiled/components-large.png?v=2018_09_27_13_43');background-position:left -53px}
+.havana .v-filterselect-nextpage-off span{background-image:url('compiled/components-large.png?v=2018_09_27_13_43');background-position:left -67px}
+.havana .v-filterselect-prevpage-off span{background-image:url('compiled/components-large.png?v=2018_09_27_13_43');background-position:left -79px}
 .havana .v-filterselect.c-disabled-or-readonly.c-empty-value input{color:transparent}
 .havana .v-richtextarea{border:1px solid #a5c4e0}
 .havana .v-richtextarea-readonly{border:0}
-.havana .v-richtextarea .gwt-RichTextToolbar{background:#8398af url(components/richtextarea/images/richtext-toolbar-bg.png?v=2018_06_29_14_25) repeat-x 0 -42px;border-bottom:1px solid #8398af}
-.havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton{outline:0;background:transparent url(components/richtextarea/images/richtext-toolbar-bg.png?v=2018_06_29_14_25) repeat-x}
+.havana .v-richtextarea .gwt-RichTextToolbar{background:#8398af url(components/richtextarea/images/richtext-toolbar-bg.png?v=2018_09_27_13_43) repeat-x 0 -42px;border-bottom:1px solid #8398af}
+.havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton{outline:0;background:transparent url(components/richtextarea/images/richtext-toolbar-bg.png?v=2018_09_27_13_43) repeat-x}
 .havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton-down,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton-down,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-ToggleButton-down-hovering,.havana .v-richtextarea .gwt-RichTextToolbar .gwt-PushButton-down-hovering{background-position:0 -21px}
 .havana .v-horizontallayout,.havana .v-verticallayout{overflow:hidden;outline:0}
 .havana .v-horizontallayout.v-margin-top,.havana .v-verticallayout.v-margin-top{padding-top:5px}
@@ -1290,8 +1291,8 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-horizontallayout.v-margin-left,.havana .v-verticallayout.v-margin-left{padding-left:5px}
 .havana .v-slot{overflow:hidden;box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box}
 .havana .v-verticallayout,.havana .v-horizontallayout,.havana .v-slot{-ms-scroll-limit:0}
-.havana .v-errorindicator{width:10px;height:16px;float:left;background:transparent;background-repeat:no-repeat;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -535px}
-.havana .v-loading-indicator,.havana .v-loading-indicator-delay,.havana .v-loading-indicator-wait{position:absolute;top:6px;right:5px;z-index:30000;width:45px;height:45px;background:transparent url(components/loadingindicator/images/ajax-loader.gif?v=2018_06_29_14_25)}
+.havana .v-errorindicator{width:10px;height:16px;float:left;background:transparent;background-repeat:no-repeat;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -535px}
+.havana .v-loading-indicator,.havana .v-loading-indicator-delay,.havana .v-loading-indicator-wait{position:absolute;top:6px;right:5px;z-index:30000;width:45px;height:45px;background:transparent url(components/loadingindicator/images/ajax-loader.gif?v=2018_09_27_13_43)}
 .havana .AceEditorWidget{border-color:#a5c4e0}
 .havana .AceEditorWidget .ace_cursor{visibility:hidden;border-left-width:1px}
 .havana .AceEditorWidget .ace_text-input,.havana .AceEditorWidget .ace_editor{font-size:12px;color:#1e3146}
@@ -1300,12 +1301,12 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .AceEditorWidget-focus{border-color:#4d7ab2}
 .havana .AceEditorWidget,.havana .AceEditorWidget:focus{outline:0}
 .havana .aceeditor-suggestpopup-list{width:400px!important}
-.havana .v-progressbar{background:#dfe2e4 url(components/progressindicator/images/progress-bg.gif?v=2018_06_29_14_25);width:150px}
+.havana .v-progressbar{background:#dfe2e4 url(components/progressindicator/images/progress-bg.gif?v=2018_09_27_13_43);width:150px}
 .havana .v-progressbar-wrapper{border:1px solid #b6bbbc;height:9px}
-.havana .v-progressbar-disabled{background:#dfe2e4 url(components/progressindicator/images/progress-disabled.gif?v=2018_06_29_14_25);height:9px;border:1px solid #b6bbbc}
-.havana .v-progressbar-indicator{background:#f7f9f9 url(components/progressindicator/images/progress-line.png?v=2018_06_29_14_25);height:9px}
-.havana div.v-progressbar-indeterminate,.havana div.v-progressbar-indeterminate-disabled{background:#dfe2e4 url(components/progressindicator/images/progress-bg.gif?v=2018_06_29_14_25);height:9px}
-.havana div.v-progressbar-indeterminate .v-progressbar-indicator,.havana div.v-progressbar-indeterminate-disabled .v-progressbar-indicator{background:#f7f9f9 url(components/progressindicator/images/progress-line.png?v=2018_06_29_14_25);height:9px}
+.havana .v-progressbar-disabled{background:#dfe2e4 url(components/progressindicator/images/progress-disabled.gif?v=2018_09_27_13_43);height:9px;border:1px solid #b6bbbc}
+.havana .v-progressbar-indicator{background:#f7f9f9 url(components/progressindicator/images/progress-line.png?v=2018_09_27_13_43);height:9px}
+.havana div.v-progressbar-indeterminate,.havana div.v-progressbar-indeterminate-disabled{background:#dfe2e4 url(components/progressindicator/images/progress-bg.gif?v=2018_09_27_13_43);height:9px}
+.havana div.v-progressbar-indeterminate .v-progressbar-indicator,.havana div.v-progressbar-indeterminate-disabled .v-progressbar-indicator{background:#f7f9f9 url(components/progressindicator/images/progress-line.png?v=2018_09_27_13_43);height:9px}
 .havana .v-menubar-popup{box-shadow:none}
 .havana .v-menubar-submenu{background:#fff;border:1px solid #4d7ab2;padding:3px}
 .havana .v-menubar-submenu .c-cm-item.v-menubar-menuitem .v-menubar-menuitem-caption{text-shadow:none;color:#222;padding:2px 8px;border-left-width:0}
@@ -1342,11 +1343,11 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-groupbox-caption{display:inline-block;height:20px;vertical-align:top;padding:0 5px;font-weight:normal;font-size:12px}
 .havana .c-groupbox-caption-end-deco{display:inline-block;height:20px;border:0;padding-top:10px;min-width:10px;width:100%}
 .havana .c-groupbox-caption-end-deco div{width:100%;height:10px;border-right:1px solid #babfc0;border-top:1px solid #babfc0}
-.havana .c-groupbox-expander{width:9px;height:9px;cursor:pointer;display:inline-block;margin-top:2px;margin-right:2px;background:transparent;background-repeat:no-repeat;background-position:center left;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -551px}
+.havana .c-groupbox-expander{width:9px;height:9px;cursor:pointer;display:inline-block;margin-top:2px;margin-right:2px;background:transparent;background-repeat:no-repeat;background-position:center left;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -551px}
 .havana .c-groupbox-caption-text{cursor:pointer}
 .havana .c-groupbox-nocollapsable>.c-groupbox-captionwrap .c-groupbox-expander{display:none}
 .havana .c-groupbox-nocollapsable>.c-groupbox-captionwrap .c-groupbox-caption-text{cursor:default}
-.havana .c-groupbox-expander.expanded{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -560px}
+.havana .c-groupbox-expander.expanded{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -560px}
 .havana .c-groupbox-deco{line-height:0;height:0;font-size:0;width:0;display:none}
 .havana .c-groupbox-nocaption>.c-groupbox-content{border-left:1px solid #a5c4e0;border-right:1px solid #a5c4e0;border-bottom:1px solid #a5c4e0;background-color:#fbfdfd}
 .havana .c-groupbox-nocaption.c-groupbox-light>.c-groupbox-content{background-color:transparent}
@@ -1363,8 +1364,8 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-groupbox.c-outer-margin-left{padding-left:5px}
 .havana .c-tokenlist .c-tokenlist-label.v-widget{clear:both;margin:0 5px 5px 0;height:25px;background:#fafafa;cursor:pointer;display:table;padding-left:5px;width:100%}
 .havana .c-tokenlist.readonly .c-tokenlist-label-close{display:none}
-.havana .c-tokenlist .c-tokenlist-label-close{height:25px;width:25px;background:#fafafa url(components/tokenlist/images/token-remove.png?v=2018_06_29_14_25) center no-repeat;cursor:pointer;display:inline-block}
-.havana .c-tokenlist .c-tokenlist-label-content{white-space:nowrap;outline:0;padding-right:25px}
+.havana .c-tokenlist .c-tokenlist-label-close{height:25px;width:25px;background:#fafafa url(components/tokenlist/images/token-remove.png?v=2018_09_27_13_43) center no-repeat;cursor:pointer;display:inline-block}
+.havana .c-tokenlist .c-tokenlist-label-content{white-space:nowrap;outline:0;padding-right:25px;overflow:hidden}
 .havana .c-tokenlist .c-tokenlist-label-content .content{font-size:12px;white-space:nowrap;cursor:default;overflow:hidden;display:inline-block;line-height:25px;vertical-align:top;width:100%}
 .havana .c-tokenlist .c-tokenlist-label.noedit{background-image:none;padding-right:5px}
 .havana .c-tokenlist .c-tokenlist-label-content.noedit .content{margin-right:0}
@@ -1373,9 +1374,10 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-tokenlist.inline .c-tokenlist-label.v-widget{display:inline-block}
 .havana .c-tokenlist.inline .c-tokenlist-label-content{padding-right:0}
 .havana .c-tokenlist.inline .c-tokenlist-label-content .content{width:auto}
-.havana .c-tokenlist.v-has-width .c-tokenlist-scrollbox{max-width:none}
-.havana .c-tokenlist.v-has-height .c-tokenlist-scrollbox{max-height:none}
-.havana .c-tokenlist-scrollbox{max-width:400px;max-height:250px;overflow:auto}
+.havana .c-tokenlist.v-has-width .v-slot-c-tokenlist-scrollbox{max-width:none}
+.havana .c-tokenlist.v-has-height .v-slot-c-tokenlist-scrollbox{max-height:none}
+.havana .v-csslayout.c-tokenlist-scrollbox{display:inline-block}
+.havana .v-slot-c-tokenlist-scrollbox{max-width:400px;max-height:250px;overflow:auto}
 .havana .c-flowlayout{overflow-y:auto}
 .havana .c-flowlayout>*{float:left}
 .havana .c-flowlayout.v-csslayout-spacing>*{margin-right:5px;margin-bottom:5px}
@@ -1405,11 +1407,11 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-fieldgroup-caption{display:inline-block;height:20px;vertical-align:top;padding:0 5px;font-weight:normal;font-size:12px}
 .havana .c-fieldgroup-caption-end-deco{display:inline-block;height:20px;border:0;padding-top:10px;min-width:10px;width:100%}
 .havana .c-fieldgroup-caption-end-deco div{width:100%;height:10px;border-right:1px solid #babfc0;border-top:1px solid #babfc0}
-.havana .c-fieldgroup-expander{width:9px;height:9px;cursor:pointer;display:inline-block;margin-top:2px;margin-right:2px;background:transparent;background-repeat:no-repeat;background-position:center left;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -551px}
+.havana .c-fieldgroup-expander{width:9px;height:9px;cursor:pointer;display:inline-block;margin-top:2px;margin-right:2px;background:transparent;background-repeat:no-repeat;background-position:center left;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -551px}
 .havana .c-fieldgroup-caption-text{cursor:pointer}
 .havana .c-fieldgroup-nocollapsable>.c-fieldgroup-captionwrap .c-fieldgroup-expander{display:none}
 .havana .c-fieldgroup-nocollapsable>.c-fieldgroup-captionwrap .c-fieldgroup-caption-text{cursor:default}
-.havana .c-fieldgroup-expander.expanded{background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -560px}
+.havana .c-fieldgroup-expander.expanded{background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -560px}
 .havana .c-fieldgroup-deco{line-height:0;height:0;font-size:0;width:0;display:none}
 .havana .c-fieldgroup-nocaption>.c-fieldgroup-content{border-left:1px solid #a5c4e0;border-right:1px solid #a5c4e0;border-bottom:1px solid #a5c4e0;background-color:#fbfdfd}
 .havana .c-fieldgroup-nocaption.c-fieldgroup-light>.c-fieldgroup-content{background-color:transparent}
@@ -1441,13 +1443,13 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-fieldgroup-border>.c-fieldgroup-captionwrap .c-fieldgroup-caption-end-deco div{border-right-width:1px;border-top-width:1px}
 .havana .c-fieldgroup-light.c-fieldgroup-border>.c-fieldgroup-captionwrap .c-fieldgroup-caption-end-deco div{border-right:0}
 .havana .c-fieldgroup-border.c-fieldgroup-nocaption>.c-fieldgroup-captionwrap .c-fieldgroup-caption-start-deco div,.havana .c-fieldgroup-border.c-fieldgroup-nocaption>.c-fieldgroup-captionwrap .c-fieldgroup-caption-end-deco div{height:12px;padding-top:2px}
-.havana .c-grouptable .c-grouptable-group-cell-expander{width:12px;height:12px;margin-right:2px;vertical-align:middle;background:transparent;background-repeat:no-repeat;background-position:center;background-image:url(components/tree/images/item-collapsed.png?v=2018_06_29_14_25);display:inline-block;cursor:pointer}
-.havana .c-grouptable .v-expanded .c-grouptable-group-cell-expander{background-image:url(components/tree/images/item-expanded.png?v=2018_06_29_14_25)}
+.havana .c-grouptable .c-grouptable-group-cell-expander{width:12px;height:12px;margin-right:2px;vertical-align:middle;background:transparent;background-repeat:no-repeat;background-position:center;background-image:url(components/tree/images/item-collapsed.png?v=2018_09_27_13_43);display:inline-block;cursor:pointer}
+.havana .c-grouptable .v-expanded .c-grouptable-group-cell-expander{background-image:url(components/tree/images/item-expanded.png?v=2018_09_27_13_43)}
 .havana .c-grouptable .c-grouptable-float{display:inline-block;vertical-align:middle}
 .havana .c-fileupload{position:relative;overflow:hidden}
-.havana .c-fileupload:hover .v-button{background:transparent url(components/button/images/button-hover.gif?v=2018_06_29_14_25) repeat-x}
+.havana .c-fileupload:hover .v-button{background:transparent url(components/button/images/button-hover.gif?v=2018_09_27_13_43) repeat-x}
 .havana .c-fileupload.v-disabled input{cursor:default}
-.havana .c-fileupload.v-disabled:hover .v-button{background:transparent url(components/button/images/button.gif?v=2018_06_29_14_25) repeat-x}
+.havana .c-fileupload.v-disabled:hover .v-button{background:transparent url(components/button/images/button.gif?v=2018_09_27_13_43) repeat-x}
 .havana .c-fileupload input{display:block;cursor:pointer;position:absolute;opacity:0;text-align:right;margin:0;top:0;right:0;width:100%;height:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box}
 .havana .c-fileupload.v-disabled input[type="file"]::-webkit-file-upload-button{cursor:default}
 .havana .c-fileupload input[type="file"]::-webkit-file-upload-button{cursor:pointer;display:block;width:100%;height:100%;max-width:100%;max-height:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box}
@@ -1538,7 +1540,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-fglayout-slot.c-full-height-widget>.v-checkbox{height:25px;line-height:25px}
 .havana .c-resizabletextarea-wrapper{position:relative;overflow:hidden}
 .havana .c-resizabletextarea-wrapper .v-textarea{min-height:15px}
-.havana .c-resizabletextarea-resize-corner{z-index:1001;position:absolute;bottom:1px;right:1px;width:16px;height:16px;background:transparent;background-image:url('compiled/components.png?v=2018_06_29_14_25');background-position:left -569px;cursor:nwse-resize}
+.havana .c-resizabletextarea-resize-corner{z-index:1001;position:absolute;bottom:1px;right:1px;width:16px;height:16px;background:transparent;background-image:url('compiled/components.png?v=2018_09_27_13_43');background-position:left -569px;cursor:nwse-resize}
 .havana .c-fileupload-container{height:25px;min-height:25px}
 .havana .c-fileupload-container>.v-expand>.v-spacing{width:5px}
 .havana .c-fileupload-filename.v-has-width{overflow:hidden;text-overflow:ellipsis}
@@ -1562,8 +1564,22 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-login-main-layout{background-color:#fff}
 .havana .c-login-icon>img{height:32px}
 .havana .login-form-label{font-size:10pt;color:#2b4666}
+.havana .c-login-form{width:270px}
+.havana .c-login-form .v-spacing{height:15px}
+.havana .c-login-credentials{width:100%}
+.havana .c-login-remember-locales{height:$v-unit-size;width:100%}
+.havana .c-login-remember-locales>.v-slot{width:50%}
+.havana .c-login-remember-locales>.v-slot:before{content:"";display:inline-block;height:100%;vertical-align:middle;width:0}
+.havana .c-login-remember-locales>.v-slot>*{vertical-align:middle}
+.havana .c-login-remember-locales>.v-slot-c-login-remember-me{text-align:left}
+.havana .c-login-remember-locales>.v-slot-c-login-locale{text-align:right}
+.havana .c-login-remember-locales>.v-slot-c-login-locale:first-child:last-child{float:right}
+.havana .c-login-username{border-bottom-width:0;display:block;width:100%}
+.havana .c-login-username.v-textfield:focus+.c-login-password,.havana .c-login-username.v-textfield-focus+.c-login-password{border-top-color:#4d7ab2}
+.havana .c-login-password{display:block;width:100%}
+.havana .c-login-locale>input{width:80px}
 .havana .c-powered-by{font-size:12px;padding-bottom:30px}
-.havana .c-powered-by a{margin-left:5px;display:inline-block;text-decoration:none;font-weight:bold;color:#006bac;background:url(app/images/cuba-icon-login.png?v=2018_06_29_14_25);background-repeat:no-repeat;background-position:left center;background-size:contain;background-clip:border-box;padding-left:30px;padding-top:5px;padding-bottom:5px}
+.havana .c-powered-by a{margin-left:5px;display:inline-block;text-decoration:none;font-weight:bold;color:#006bac;background:url(app/images/cuba-icon-login.png?v=2018_09_27_13_43);background-repeat:no-repeat;background-position:left center;background-size:contain;background-clip:border-box;padding-left:30px;padding-top:5px;padding-bottom:5px}
 .havana .c-powered-by .c-cuba-word{color:#5b5857}
 .havana .c-login-capslockindicator{height:20px}
 .havana .c-main-menu-popup.v-menubar-popup{box-shadow:0 2px 6px 0 rgba(0,0,0,0.5)}
@@ -1588,12 +1604,12 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-app-menubar .v-label.c-user-timezone-label{color:#fff;font-size:12px;font-weight:normal;font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";text-shadow:black 1px 1px}
 .havana .c-app-menubar .c-app-icon{margin-left:5px}
 .havana .c-app-menubar .v-menubar{padding:0}
-.havana .c-app-menubar .v-menubar-menuitem-more-item{text-indent:-90000px;width:12px;background-image:url(app/images/more-item.png?v=2018_06_29_14_25);background-position:center;background-repeat:no-repeat}
+.havana .c-app-menubar .v-menubar-menuitem-more-item{text-indent:-90000px;width:12px;background-image:url(app/images/more-item.png?v=2018_09_27_13_43);background-position:center;background-repeat:no-repeat}
 .havana .c-app-workarea-initial{background:#8398af}
 .havana .c-main-singlewindow{background:#fff}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-spacertd div{border-bottom:0}
 .havana .c-main-singlewindow .v-tabsheet>.v-tabsheet-tabcontainer{background:transparent none}
-.havana .c-main-singlewindow .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/middle-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .c-main-singlewindow .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/middle-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem{border-left:1px solid #b4d0e4;height:14px;line-height:14px;margin-bottom:9px;padding-top:0;padding-left:5px}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption{height:20px;padding:0 6px 5px 4px}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitem .v-caption .v-captiontext{color:#1e3146}
@@ -1605,7 +1621,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell.c-tab-sibling-visible .v-tabsheet-tabitem{border-left:1px transparent;padding-left:0}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content{border:1px solid #b4d0e4;border-top-style:none;background:#f5f7f9}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-deco{background:transparent}
-.havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/inner-tabsheet-bg.png?v=2018_06_29_14_25) repeat-x bottom}
+.havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs{background:transparent url(components/tabsheet/images/inner-tabsheet-bg.png?v=2018_09_27_13_43) repeat-x bottom}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem{border-left:1px solid #a4c5df;height:14px;line-height:14px;margin-bottom:9px;padding-top:0;padding-left:5px}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem .v-caption{height:20px;padding:0 6px 5px 4px}
 .havana .c-main-singlewindow .v-tabsheet .v-tabsheet-content .v-tabsheet .v-tabsheet-tabs .v-tabsheet-tabitemcell .v-tabsheet-tabitem .v-caption .v-captiontext{color:#2b4666}
@@ -1662,7 +1678,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .v-button.v-button-link.c-paging-count-number{cursor:default}
 .havana .v-button.v-button-link.c-paging-count-number .v-button-wrap .v-button-caption{text-decoration:none;color:#1e3146;cursor:default}
 .havana .c-table-showlink-textarea{resize:vertical;width:100%;height:60px;outline:0;border:1px solid #a5c4e0;box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box}
-.havana .c-table-prefs-icon{float:right;width:16px;height:16px;cursor:pointer;position:relative;margin-right:4px;margin-top:-20px;background:transparent;background-repeat:no-repeat;background-image:url('compiled/application.png?v=2018_06_29_14_25');background-position:left -0px}
+.havana .c-table-prefs-icon{float:right;width:16px;height:16px;cursor:pointer;position:relative;margin-right:4px;margin-top:-20px;background:transparent;background-repeat:no-repeat;background-image:url('compiled/application.png?v=2018_09_27_13_43');background-position:left -0px}
 .havana .collapsing-allowed .c-table-prefs-icon{margin-right:22px}
 .havana .c-table-prefs-editor{z-index:19000!important;background-color:#fff;border:1px solid #4d7ab2;padding:5px 3px 5px 3px;font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS"}
 .havana .c-table-prefs-editor .c-table-prefs-title{color:gray;margin-left:5px;margin-right:5px;border-bottom:1px dotted lightgray;padding-bottom:4px;cursor:default;font-size:12px;line-height:14px}
@@ -1671,18 +1687,18 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .v-menubar-menuitem .v-menubar-menuitem-caption{text-shadow:none;color:#4d7ab2}
 .havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .v-menubar-menuitem:hover{background-color:#4d7ab2}
 .havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .v-menubar-menuitem:hover .v-menubar-menuitem-caption{text-shadow:none;color:#fff}
-.havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .c-table-prefs-menuitem-default{background:transparent;background-repeat:no-repeat;background-image:url(icons/star.png?v=2018_06_29_14_25)}
-.havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .c-table-prefs-menuitem-current{font-weight:bold;background:transparent;background-repeat:no-repeat;background-image:url(icons/ok.png?v=2018_06_29_14_25)}
-.havana .c-folders-pane{background:#fff url(app/images/folders-pane-bg.png?v=2018_06_29_14_25) top repeat-x}
+.havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .c-table-prefs-menuitem-default{background:transparent;background-repeat:no-repeat;background-image:url(icons/star.png?v=2018_09_27_13_43)}
+.havana .c-table-prefs-editor .c-table-prefs-list.v-menubar .c-table-prefs-menuitem-current{font-weight:bold;background:transparent;background-repeat:no-repeat;background-image:url(icons/ok.png?v=2018_09_27_13_43)}
+.havana .c-folders-pane{background:#fff url(app/images/folders-pane-bg.png?v=2018_09_27_13_43) top repeat-x}
 .havana .c-folders-pane .v-tree{border-color:transparent;overflow:auto}
 .havana .c-folders-pane .v-tree .v-tree-node-cuba-clickable-folder .v-tree-node-caption span{cursor:pointer}
 .havana .c-folders-pane .v-tree .v-tree-node-cuba-clickable-folder .v-tree-node-caption span:hover{text-decoration:underline;background:transparent none}
 .havana .c-folders-pane .v-tree .v-tree-node-cuba-nonclickable-folder .v-tree-node-caption span:hover{background:transparent none}
 .havana .c-folders-pane .v-tree:focus,.havana .c-folders-pane .v-tree-focus{border-color:#4d7ab2}
-.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon,.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon-active{background:transparent;background-image:url('compiled/application.png?v=2018_06_29_14_25');background-position:left -16px}
+.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon,.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon-active{background:transparent;background-image:url('compiled/application.png?v=2018_09_27_13_43');background-position:left -16px}
 .havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon,.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon-active,.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon:hover,.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon-active:hover{box-sizing:border-box;-webkit-box-sizing:border-box;-o-box-sizing:border-box;-moz-box-sizing:border-box;padding-bottom:5px;padding-top:1px;width:26px;height:21px;border:0;background-clip:border-box;background-origin:border-box}
 .havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon-active,.havana .v-menubar-menuitem.v-menubar-menuitem-folders-pane-icon-active:hover{border:2px solid #4d7ab2}
-.havana .v-label.c-folders-pane-caption{font-size:14px;color:#2b4766;background:url(app/images/folders-pane-header-bg.png?v=2018_06_29_14_25) no-repeat 5px bottom;padding-top:5px;padding-left:5px}
+.havana .v-label.c-folders-pane-caption{font-size:14px;color:#2b4766;background:url(app/images/folders-pane-header-bg.png?v=2018_09_27_13_43) no-repeat 5px bottom;padding-top:5px;padding-left:5px}
 .havana .v-horizontallayout.c-breadcrumbs-logo{padding:0}
 .havana .c-breadcrumbs .v-label{font-family:Verdana,tahoma,arial,geneva,helvetica,sans-serif,"Trebuchet MS";font-size:10px;color:#2b4666;font-weight:normal;height:25px;border:0}
 .havana .c-breadcrumbs .v-button:hover{background:transparent}
@@ -1701,6 +1717,7 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .c-bulk-editor-grid .field-label{line-height:25px}
 .havana .c-bulk-editor-grid .v-button{padding:0 4px}
 .havana .v-label.c-log-content,.havana .v-textarea.c-exception-dialog-log-content{font-family:monospace;border-radius:0}
+.havana .v-label span.c-log-lowered-attention{opacity:.3}
 .havana .v-label span.c-log-level{font-weight:bold}
 .havana .v-label span.c-log-level-DEBUG{color:#000}
 .havana .v-label span.c-log-level-INFO{color:blue}
@@ -1723,3 +1740,4 @@ body .havana.v-app .v-app-loading{background-image:url(../base/common/img/loadin
 .havana .modifiedItem{color:blue!important}
 .havana .chainItem{color:blue!important}
 .havana .c-localizedname-scrollbox{max-height:250px}
+.havana .table-boolean-text .v-table .boolean-cell .v-table-cell-wrapper{color:inherit;font-size:inherit;background-image:none}

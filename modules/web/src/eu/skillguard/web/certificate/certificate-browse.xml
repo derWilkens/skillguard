@@ -117,7 +117,8 @@
                                    property="qualificationType"/>
                             <field optionsDatasource="employeesDs"
                                    property="employee"/>
-                            <field optionsDatasource="fileDatasDs"
+                            <field idx="&quot;customerLookupField&quot;"
+                                   optionsDatasource="fileDatasDs"
                                    property="fileData"/>
                         </column>
                     </fieldGroup>

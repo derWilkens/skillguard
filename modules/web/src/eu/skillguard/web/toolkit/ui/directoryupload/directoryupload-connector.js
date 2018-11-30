@@ -21,7 +21,29 @@ eu_skillguard_web_toolkit_ui_directoryupload_DirectoryUpload = function() {
 	        file = files[i];
 	        extension = file.name.split(".").pop();
 	        output.innerHTML += "<li class='type-" + extension + "'>" + file.name + " (" +  Math.floor(file.size/1024 * 100)/100 + "KB)</li>";
-	        connector.filesSelected(file);
+	        //connector.filesSelected(file);
+	        
+	        
+	        var url = 'http://localhost:8080/app/rest/v2/files?name=' + file.name; // send file name as parameter
+	        
+	        $.ajax({
+	            type: 'POST',
+	            url: url,
+	            headers: {
+	                'Authorization': 'Bearer ' + localStorage._cubaAccessToken // add header with access token
+	            },
+	            processData: false,
+	            contentType: false,
+	            dataType: 'json',
+	            data: file,
+	            success: function (data) {
+	                alert('Upload successful');
+
+	                $('#uploadedFile').attr('src',
+	                    'http://localhost:8080/app/rest/v2/files/' + data.id + '?access_token=' + localStorage._cubaAccessToken); // update image url
+	                $('#uploadedFile').show();
+	            }
+	        });
 	    }
 	    
 	}, false);

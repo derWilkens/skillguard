@@ -20,6 +20,10 @@
                   view="_minimal"/>
         <property name="email"/>
         <property name="changePasswordAtNextLogon"/>
+        <property name="jobfunction"
+                  view="_minimal"/>
+        <property name="additionalRoles"
+                  view="_local"/>
     </view>
     <view class="eu.skillguard.entity.Jobfunction"
           extends="_local"
@@ -31,7 +35,7 @@
     </view>
     <view class="eu.skillguard.entity.Role"
           extends="_local"
-          name="role-view">
+          name="role-cert-edit">
         <property name="certificateTypes"
                   view="_minimal"/>
     </view>
@@ -56,6 +60,36 @@
           extends="_local"
           name="certificate-view_1">
         <property name="fileData"
+                  view="_minimal"/>
+    </view>
+    <view class="eu.skillguard.entity.Employee"
+          name="employee-detail">
+        <property name="department"
+                  view="_minimal">
+            <property name="name"/>
+        </property>
+        <property name="firstName"/>
+        <property name="lastName"/>
+        <property name="position"/>
+        <property name="email"/>
+        <property name="jobfunction"
+                  view="_minimal">
+            <property name="roles"
+                      view="_minimal">
+                <property name="level"/>
+            </property>
+        </property>
+        <property name="additionalRoles"
+                  view="_minimal">
+            <property name="level"/>
+        </property>
+    </view>
+    <view class="eu.skillguard.entity.Employee"
+          extends="_minimal"
+          name="employee-list-view">
+        <property name="department"
+                  view="_minimal"/>
+        <property name="jobfunction"
                   view="_minimal"/>
     </view>
 </views>

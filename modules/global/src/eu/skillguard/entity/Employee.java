@@ -12,6 +12,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.annotation.Listeners;
+import java.util.List;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 
 @Listeners("skillguard_EmployeeListener")
 @NamePattern("%s, |lastName,firstName")
@@ -25,6 +28,39 @@ public class Employee extends User {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "DEPARTMENT_ID")
     protected Department department;
+
+    @JoinTable(name = "SKILLGUARD_EMPLOYEE_ROLE_LINK",
+        joinColumns = @JoinColumn(name = "EMPLOYEE_ID"),
+        inverseJoinColumns = @JoinColumn(name = "ROLE_ID"))
+    @OnDeleteInverse(DeletePolicy.UNLINK)
+    @OnDelete(DeletePolicy.UNLINK)
+    @ManyToMany
+    protected List<Role> additionalRoles;
+
+    @Lookup(type = LookupType.DROPDOWN)
+    @OnDeleteInverse(DeletePolicy.UNLINK)
+    @OnDelete(DeletePolicy.UNLINK)
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "JOBFUNCTION_ID")
+    protected Jobfunction jobfunction;
+
+    public void setAdditionalRoles(List<Role> additionalRoles) {
+        this.additionalRoles = additionalRoles;
+    }
+
+    public List<Role> getAdditionalRoles() {
+        return additionalRoles;
+    }
+
+
+    public void setJobfunction(Jobfunction jobfunction) {
+        this.jobfunction = jobfunction;
+    }
+
+    public Jobfunction getJobfunction() {
+        return jobfunction;
+    }
+
 
     public void setDepartment(Department department) {
         this.department = department;

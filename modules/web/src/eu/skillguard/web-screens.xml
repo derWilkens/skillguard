@@ -5,10 +5,6 @@
             template="eu/skillguard/web/department/department-edit.xml"/>
     <screen id="skillguard$Department.browse"
             template="eu/skillguard/web/department/department-browse.xml"/>
-    <screen id="skillguard$Employee.edit"
-            template="eu/skillguard/web/employee/employee-edit.xml"/>
-    <screen id="skillguard$Employee.browse"
-            template="eu/skillguard/web/employee/employee-browse.xml"/>
     <screen id="skillguard$Jobfunction.edit"
             template="eu/skillguard/web/jobfunction/jobfunction-edit.xml"/>
     <screen id="skillguard$CertificateType.browse"
@@ -23,4 +19,10 @@
             template="eu/skillguard/web/screens/ext-mainwindow.xml"/>
     <screen id="skillguard$UploadFrame"
             template="eu/skillguard/web/certificate/uploadFrame.xml"/>
+    <screen id="skillguard$Role.edit"
+            template="eu/skillguard/web/role/role-edit.xml"/>
+    <screen id="skillguard$Employee.edit"
+            template="eu/skillguard/web/employee/employee-edit.xml"/>
+    <screen id="skillguard$Employee.browse"
+            template="eu/skillguard/web/employee/employee-browse.xml"/>
 </screen-config>

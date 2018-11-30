@@ -46,6 +46,23 @@ public class Role extends StandardEntity {
     @ManyToMany
     protected List<CertificateType> certificateTypes;
 
+    @JoinTable(name = "SKILLGUARD_EMPLOYEE_ROLE_LINK",
+        joinColumns = @JoinColumn(name = "ROLE_ID"),
+        inverseJoinColumns = @JoinColumn(name = "EMPLOYEE_ID"))
+    @OnDeleteInverse(DeletePolicy.UNLINK)
+    @OnDelete(DeletePolicy.UNLINK)
+    @ManyToMany
+    protected List<Employee> employees;
+
+    public void setEmployees(List<Employee> employees) {
+        this.employees = employees;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
+    }
+
+
     public void setCertificateTypes(List<CertificateType> certificateTypes) {
         this.certificateTypes = certificateTypes;
     }

@@ -106,6 +106,14 @@ create table SKILLGUARD_ROLE_CERTIFICATE_TYPE_LINK (
 -- end SKILLGUARD_ROLE_CERTIFICATE_TYPE_LINK
 -- begin SEC_USER
 alter table SEC_USER add column DEPARTMENT_ID varchar(36) ^
+alter table SEC_USER add column JOBFUNCTION_ID varchar(36) ^
 alter table SEC_USER add column DTYPE varchar(100) ^
 update SEC_USER set DTYPE = 'sec$User' where DTYPE is null ^
 -- end SEC_USER
+-- begin SKILLGUARD_EMPLOYEE_ROLE_LINK
+create table SKILLGUARD_EMPLOYEE_ROLE_LINK (
+    ROLE_ID varchar(36) not null,
+    EMPLOYEE_ID varchar(36) not null,
+    primary key (ROLE_ID, EMPLOYEE_ID)
+)^
+-- end SKILLGUARD_EMPLOYEE_ROLE_LINK

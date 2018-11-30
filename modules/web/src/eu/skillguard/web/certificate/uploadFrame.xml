@@ -21,7 +21,9 @@
                 uploadButtonCaption="UplBtn"
                 uploadButtonDescription="Desc"
                 uploadButtonIcon="UPLOAD"/>
-        <multiUpload/>
+        <multiUpload id="multiUploadButton"
+                     multiple="true"
+                     webkitdirectory="webkitdirectory"/>
         <hbox id="uploadBox"
               spacing="true"/>
     </layout>

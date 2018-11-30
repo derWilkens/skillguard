@@ -3,7 +3,6 @@
 	<classpathentry path="bin" kind="output"/>
 	<classpathentry kind="src" path="."/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
-	<classpathentry kind="lib" path="C:/Users/Christian/.gradle/caches/modules-2/files-2.1/com.haulmont.cuba/cuba-web-themes/6.9.2/26e2ee451fb7ebf6374e6be32e6e440ec2b95afc/cuba-web-themes-6.9.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Christian/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-themes/7.7.13.cuba.9/7c24200bc1501838d58b578d829e4595163d8c0/vaadin-themes-7.7.13.cuba.9.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Christian/Documents/GitHub/skillguard/modules/web/themes/build/enhanced-classes/test" exported="true"/>
+	<classpathentry kind="lib" path="C:/Users/Christian/.gradle/caches/modules-2/files-2.1/com.haulmont.cuba/cuba-web-themes/6.10.0/fa7f4ff570bcca6121f2ae7afbc2fd658496a49f/cuba-web-themes-6.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Christian/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-themes/7.7.14.cuba.0/85a621691c4a97105861494f7e9ae809865857bc/vaadin-themes-7.7.14.cuba.0.jar"/>
 </classpath>

@@ -8,4 +8,6 @@
         <functionality id="newFkConstraintNaming"
                        state="ENABLE"/>
     </functionalitySettings>
+    <screenDesigner>
+    </screenDesigner>
 </studio>
