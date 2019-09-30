@@ -16,7 +16,7 @@
 ================================================================================
 
 
-                     Apache Tomcat Version 8.5.23
+                     Apache Tomcat Version 8.5.33
                             Release Notes
 
 
@@ -98,7 +98,8 @@ or by placing them in JAR files in the "lib" directory.
 
 To override the XML parser implementation or interfaces, use the appropriate
 feature for your JVM. For Java <= 8 use the endorsed standards override
-feature. For Java 9+ use the upgradeable modules feature.
+feature. The default configuration defines JARs located in "endorsed" as endorsed.
+For Java 9+ use the upgradeable modules feature.
 
 
 ================================================================
@@ -138,7 +139,7 @@ the check.
 ==============================
 Viewing the Tomcat Change Log:
 ==============================
-The full change log is available from http://tomcat.apache.org and is also
+The full change log is available from https://tomcat.apache.org and is also
 included in the documentation web application.
 
 
@@ -174,4 +175,4 @@ software:
 When all else fails:
 ====================
 See the FAQ
-http://tomcat.apache.org/faq/
+https://tomcat.apache.org/faq/

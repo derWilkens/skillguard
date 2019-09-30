@@ -6,8 +6,8 @@ import com.haulmont.cuba.gui.xml.layout.loaders.AbstractComponentLoader;
 public class DirectoryUploadLoader extends AbstractComponentLoader<DirectoryUpload> {
     @Override
     public void createComponent() {
-        resultComponent = factory.createComponent(DirectoryUpload.class);
-        loadId(resultComponent, element);
+        //@todo: resultComponent = factory.createComponent(DirectoryUpload.class);
+        //loadId(resultComponent, element);
     }
 
     @Override

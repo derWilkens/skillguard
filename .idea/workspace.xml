@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3579f563-c82c-4e7a-acb2-4f12c61e2e26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/studio-intellij.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.script" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.script" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/NOTICE" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/NOTICE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/RELEASE-NOTES" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/RELEASE-NOTES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/RUNNING.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/RUNNING.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/bootstrap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/bootstrap.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/commons-daemon-native.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/commons-daemon-native.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/commons-daemon.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/commons-daemon.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/daemon.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/daemon.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/setclasspath.bat" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/setclasspath.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/setclasspath.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/setclasspath.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/tomcat-juli.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/tomcat-juli.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/tomcat-native.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/tomcat-native.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/tool-wrapper.bat" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/tool-wrapper.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/bin/tool-wrapper.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/bin/tool-wrapper.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/catalina.policy" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/conf/catalina.policy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/db/init/hsql/10.create-db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/db/init/hsql/20.create-db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/db/init/hsql/30.create-db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/db/update/hsql/18/180610-1-createSkillguardJobfunctionRoleLink.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/db/update/hsql/18/180610-2-createSkillguardJobfunctionRoleLink.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/jaspic-providers.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/conf/jaspic-providers.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/conf/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/conf/server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/conf/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/conf/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/annotations-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/annotations-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-ant.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-ant.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-ha.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-ha.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-storeconfig.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-storeconfig.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-tribes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/catalina-tribes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/catalina.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/catalina.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/el-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/el-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/hsqldb-2.2.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/jasper-el.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/jasper-el.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/jasper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/jasper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/jaspic-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/jaspic-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/jsp-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/jsp-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/servlet-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/servlet-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-coyote.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-coyote.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-dbcp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-dbcp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-i18n-es.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-i18n-es.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-i18n-fr.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-i18n-fr.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-i18n-ja.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-i18n-ja.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-jdbc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-jdbc.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-jni.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-jni.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-util-scan.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-util-scan.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-util.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-util.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-websocket.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/tomcat-websocket.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/lib/websocket-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/lib/websocket-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/app.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/catalina.2018-05-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/catalina.2018-06-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/catalina.2018-06-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/catalina.2018-06-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/catalina.2018-06-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/catalina.2018-06-24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost.2018-05-02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost.2018-06-08.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost.2018-06-09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost.2018-06-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost.2018-06-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost.2018-06-24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-05-02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-05-03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-06-08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-06-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-06-10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-06-14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/localhost_access_log.2018-06-24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat-ui.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/aceeditor-0.8.14.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/atmosphere-runtime-2.2.9.vaadin2.cuba1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/classmate-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commonj.sdo-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-lang-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-text-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/dragdroplayouts-1.3.2.cuba.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/guava-19.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/hibernate-validator-5.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/javaee-api-7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/javax.el-2.2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/javax.el-api-2.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/javax.json-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/javax.mail-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/javax.persistence-2.1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/jboss-logging-3.3.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/jquery-1.12.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/kryo-serializers-0.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/kryo-shaded-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/popupbutton-2.6.0-3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/protobuf-java-2.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/snakeyaml-1.18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/swfobject-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/vaadin-context-menu-0.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/vaadin-slf4j-jdk14-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/xstream-1.4.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/temp/importfile-Departmentimport5169606977755478650.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/hsql/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/hsql/create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mssql/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mssql/create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mysql/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mysql/create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/oracle/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/oracle/create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/postgres/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/postgres/create-db.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/update/mysql/17/170712-createLocalizedConstraintMessageTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/update/mysql/17/170712-createLocalizedConstraintMessageTable.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-core-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-core-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/ACE LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/ext-searchbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/ext-spellcheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/ext-static_highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/ext-textarea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/keybinding-emacs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/keybinding-vim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-pgsql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/mode-xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/theme-chrome.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/theme-eclipse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/resources/ace/theme-textmate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/calendar/img/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/colorpicker/images/gradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/colorpicker/images/gradient2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/colorpicker/images/resizebg-selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/colorpicker/images/resizebg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/colorpicker/images/slider_hue_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/ajax-loader-big.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/ajax-loader-medium.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/drag-slot-dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/loading-indicator-delay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/loading-indicator-wait.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/loading-indicator.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/reconnect-spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/common/img/sprites.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/themeicons-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/themeicons-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/themeicons-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/fonts/themeicons-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/menubar/img/check.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/bottom-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/bottom-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/top-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/top-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/shadow/img/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/textfield/img/richtext-toolbar-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-collapse-last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-collapse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-expand-last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-item-last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-leaf-last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector-leaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/tree/img/connector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/treetable/img/arrow-down.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/treetable/img/arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/treetable/img/arrow-right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/treetable/img/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/bottom-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/bottom-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/top-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/top-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/base/window/img/shadow/top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/app/sprites/folders-pane-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/app/sprites/table-presentations-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/compiled/application.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/compiled/components-large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/compiled/components.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/button/images/button-hover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/button/images/button-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/button/images/button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/caption/sprites/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datagrid/sprites/checkbox-checked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datagrid/sprites/checkbox-unchecked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/date-select-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/nextmonth-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/nextmonth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/nextyear-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/nextyear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/prevmonth-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/prevmonth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/prevyear-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/datefield/sprites/prevyear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/errorindicator/sprites/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/groupbox/sprites/collapse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/groupbox/sprites/expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/loadingindicator/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/menubar/sprites/submenu-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/multiupload/images/multiupload-button-font-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/multiupload/images/multiupload-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/notification/images/close-error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/pickerfield/images/clear-btn-readonly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/pickerfield/images/clear-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/pickerfield/images/lookup-btn-readonly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/pickerfield/images/lookup-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/pickerfield/images/open-btn-readonly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/pickerfield/images/open-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/popupbutton/sprites/popup-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/progressindicator/images/progress-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/progressindicator/images/progress-disabled.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/progressindicator/images/progress-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/resizabletextarea/sprites/resizable-corner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/richtextarea/images/richtext-toolbar-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/filter-button-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/filter-button-focus-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/filter-button-readonly-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/popup-down-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/popup-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/popup-up-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/select/sprites/popup-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/splitpanel/images/dockable-split-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/splitpanel/images/dockable-split-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/splitpanel/images/ruler-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/splitpanel/images/ruler-vertical.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/splitpanel/sprites/dock-button-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/splitpanel/sprites/dock-button-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/images/check-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/images/check.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/checkbox-checked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/checkbox-unchecked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/column-selector.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/scroll-position-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/sort-asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/sort-desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/table/sprites/sort-menu-indicator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/images/inner-tabsheet-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/images/main-tabitem-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/images/main-tabpanel-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/images/middle-tabsheet-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/images/top-tabsheet-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/sprites/next-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/sprites/prev-tab.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/sprites/tab-remove-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/sprites/tab-remove-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tabsheet/sprites/tab-remove-inactive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tokenlist/images/token-remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tree/images/item-collapsed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tree/images/item-expanded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tree/images/tree-line-last.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/tree/images/tree-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/window/sprites/close-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/window/sprites/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/window/sprites/maximize-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/window/sprites/maximize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/components/window/sprites/resize.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/filter-remove-disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/filter-remove-enabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/star-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-design-compile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-design-deploy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-design-export.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-design-import.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-design-scripts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-exchange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-user-group-button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/icons/wf-user-group-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/333A66D5307B1C8C9935C59A877F1993.cache.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/51DCB1D3F3D956ACC80F89D3CF0AC5BE.cache.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/C81F8CA7CA7012F31BDE883DF6C99E61.cache.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/D03281BC3FDB49177B485D1DC10A13C4.cache.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/clear.cache.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.devmode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.devmode.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.nocache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.nocache.js.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/compilation-mappings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/fi_jasoft_dragdroplayouts/dragdroplayouts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/fi_jasoft_dragdroplayouts/dragdroplayouts.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/popupbutton/popupbutton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/popupbutton/popupbutton.css.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-gui-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-gui-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-web-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-web-0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/css/bootstrap-3.3.7.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/js/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/js/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/js/webl10n.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/js/webl10n.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/l10n/locales.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/l10n/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/l10n/messages_ru.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/idp/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/work/app-core/filestorage/2018/06/09/e9c18b7d-149c-8568-f292-226606280b9a.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/work/app-core/filestorage/2018/06/14/f4ff4558-ebf2-c515-e1d2-6c4caedb4168.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/work/app-core/filestorage/storage.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/tomcat/work/app-core/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/src/eu/skillguard/core/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/messages_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/core/src/eu/skillguard/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/src/eu/skillguard/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-app.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-dispatcher-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-dispatcher-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/facebook-theme.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/facebook-theme.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/gui/xml/layout/loaders/DirectoryUploadLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/gui/xml/layout/loaders/DirectoryUploadLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/screens/ExtAppMainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/screens/ExtAppMainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/web/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skillguard.iws" beforeDir="false" afterPath="$PROJECT_DIR$/skillguard.iws" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/modules/core/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/core/build/" />
+    <ignored path="$PROJECT_DIR$/modules/global/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/global/build/" />
+    <ignored path="$PROJECT_DIR$/modules/gui/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/gui/build/" />
+    <ignored path="$PROJECT_DIR$/modules/web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/modules/web/build/" />
+    <ignored path="$PROJECT_DIR$/modules/web/themes/.gradle/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/screens/ExtAppMainWindow.java" />
+        <option value="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/gui/xml/layout/loaders/DirectoryUploadLoader.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/cuba-project.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="cubaProjectView" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="cubaProjectView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Project" type="10fe70ea:ProjectSection" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Project" type="10fe70ea:ProjectSection" />
+              <item name="Data Stores" type="bdffc151:DataStoresSection" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Project" type="10fe70ea:ProjectSection" />
+              <item name="Data Stores" type="bdffc151:DataStoresSection" />
+              <item name="Main Data Store" type="bf789c2d:DataStoreSection" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Data Model" type="9e413f45:DataModelSection" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Generic UI" type="75975f5b:GenericUiSection" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Generic UI" type="75975f5b:GenericUiSection" />
+              <item name="Screens" type="c003e550:ScreensSection" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Generic UI" type="75975f5b:GenericUiSection" />
+              <item name="Screens" type="c003e550:ScreensSection" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Generic UI" type="75975f5b:GenericUiSection" />
+              <item name="Screens" type="c003e550:ScreensSection" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skillguard" type="3e3ce59f:CubaViewProjectNode" />
+              <item name="Runs At..." type="eaf73431:UrlsSection" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CUBA Application.CUBA Application">
+    <configuration name="localhost:8787" type="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8787" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CUBA Application" type="cubaTomcatConfiguration" factoryName="CUBA Application" jdk="11">
+      <predefined_log_file enabled="true" id="catalina" />
+      <method v="2">
+        <option name="DeployTomcatTaskProvider" enabled="true" />
+        <option name="CopyDbDriversTaskProvider" enabled="true" />
+        <option name="CheckDataBaseTaskProvider" enabled="true" />
+        <option name="DeployCubaApplicationTaskProvider" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3579f563-c82c-4e7a-acb2-4f12c61e2e26" name="Default Changelist" comment="" />
+      <created>1569877026073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569877026073</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Designer" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5026846" side_tool="true" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.4986577" weight="0.3286119" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731544" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/web/src/eu/skillguard/web/gui/xml/layout/loaders/DirectoryUploadLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/web/src/eu/skillguard/web/screens/ExtAppMainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.haulmont.cuba/cuba-gui/7.1.1/d05b979d5b7f81be887d3439c64d067cac23c81c/cuba-gui-7.1.1-sources.jar!/com/haulmont/cuba/gui/xml/layout/loaders/AbstractComponentLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="95" column="27" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

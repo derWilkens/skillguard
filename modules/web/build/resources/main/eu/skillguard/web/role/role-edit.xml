@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editorCaption"
+        class="eu.skillguard.web.role.RoleEdit"
+        datasource="roleDs"
+        focusComponent="fieldGroup"
+        messagesPack="eu.skillguard.web.role">
+    <dsContext>
+        <datasource id="roleDs"
+                    class="eu.skillguard.entity.Role"
+                    view="role-cert-edit">
+            <collectionDatasource id="certificateTypesDs"
+                                  property="certificateTypes"/>
+        </datasource>
+    </dsContext>
+    <dialogMode forceDialog="true"
+                height="AUTO"
+                width="600"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="roleDs">
+            <column width="250px">
+                <field property="name"/>
+                <field property="level"/>
+            </column>
+        </fieldGroup>
+        <groupBox id="certificateTypesBox"
+                  caption="msg://eu.skillguard.entity/Role.certificateTypes">
+            <table id="certificateTypesTable"
+                   height="200px"
+                   width="100%">
+                <actions>
+                    <action id="add"/>
+                    <action id="remove"/>
+                </actions>
+                <columns>
+                    <column id="name"/>
+                </columns>
+                <rows datasource="certificateTypesDs"/>
+                <buttonsPanel>
+                    <button action="certificateTypesTable.add"/>
+                    <button action="certificateTypesTable.remove"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <frame id="windowActions"
+               screen="extendedEditWindowActions"/>
+    </layout>
+</window>

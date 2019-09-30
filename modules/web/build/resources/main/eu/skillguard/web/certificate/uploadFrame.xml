@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        class="eu.skillguard.web.certificate.Uploadframe"
+        messagesPack="eu.skillguard.web.certificate">
+    <dsContext>
+        <datasource id="certificateDs"
+                    class="eu.skillguard.entity.Certificate"
+                    view="certificate-view_1"/>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout>
+        <upload caption="SingleUpl"
+                clearButtonCaption="Clear"
+                clearButtonIcon="ANDROID"
+                datasource="certificateDs"
+                dropZone="DZ"
+                dropZonePrompt="dropHere"
+                property="fileData"
+                responsive="true"
+                uploadButtonCaption="UplBtn"
+                uploadButtonDescription="Desc"
+                uploadButtonIcon="UPLOAD"/>
+        <multiUpload id="multiUploadButton"
+                     multiple="true"
+                     webkitdirectory="webkitdirectory"/>
+        <hbox id="uploadBox"
+              spacing="true"/>
+    </layout>
+</window>

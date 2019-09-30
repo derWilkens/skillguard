@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://browseCaption"
+        class="eu.skillguard.web.employee.EmployeeBrowse"
+        focusComponent="employeesTable"
+        lookupComponent="employeesTable"
+        messagesPack="eu.skillguard.web.employee">
+    <dsContext>
+        <groupDatasource id="employeesDs"
+                         class="eu.skillguard.entity.Employee"
+                         view="employee-list-view">
+            <query>
+                <![CDATA[select e from skillguard$Employee e]]>
+            </query>
+        </groupDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="employeesTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="employeesTable"
+                datasource="employeesDs">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="employeesTable"
+                    width="100%">
+            <actions>
+                <action id="create"
+                        openType="DIALOG"/>
+                <action id="edit"
+                        openType="DIALOG"/>
+                <action id="remove"/>
+            </actions>
+            <columns>
+                <column id="firstName"/>
+                <column id="lastName"/>
+                <column id="department"/>
+                <column id="jobfunction"/>
+            </columns>
+            <rows datasource="employeesDs"/>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn"
+                        action="employeesTable.create"/>
+                <button id="editBtn"
+                        action="employeesTable.edit"/>
+                <button id="removeBtn"
+                        action="employeesTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+    </layout>
+</window>

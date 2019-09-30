@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editorCaption"
+        class="eu.skillguard.web.employee.EmployeeEdit"
+        datasource="employeeDs"
+        focusComponent="fieldGroup"
+        messagesPack="eu.skillguard.web.employee">
+    <dsContext>
+        <datasource id="employeeDs"
+                    class="eu.skillguard.entity.Employee"
+                    view="employee-detail">
+            <collectionDatasource id="additionalRolesDs"
+                                  property="additionalRoles"/>
+        </datasource>
+        <collectionDatasource id="departmentsDs"
+                              class="eu.skillguard.entity.Department"
+                              view="_minimal">
+            <query>
+                <![CDATA[select e from skillguard$Department e]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="jobfunctionsDs"
+                              class="eu.skillguard.entity.Jobfunction"
+                              view="_minimal">
+            <query>
+                <![CDATA[select e from skillguard$Jobfunction e]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="empJobfunctionDs"
+                              class="eu.skillguard.entity.Jobfunction"
+                              view="_minimal">
+            <query>
+                <![CDATA[select e from skillguard$Jobfunction e 
+where e.id = :ds$employeeDs.jobfunction.id
+]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="empJobfunctionRolesDs"
+                              class="eu.skillguard.entity.Role"
+                              view="_local">
+            <query>
+                <![CDATA[select e from skillguard$Role e 
+where e.id in :ds$employeeDs.jobfunction.roles.id]]>
+            </query>
+        </collectionDatasource>
+        <groupDatasource id="certificatesDs"
+                         class="eu.skillguard.entity.Certificate"
+                         view="_local">
+            <query>
+                <![CDATA[select e from skillguard$Certificate e where e.employee.id = :ds$employeeDs.id
+]]>
+            </query>
+        </groupDatasource>
+        <collectionDatasource id="rolesDs"
+                              class="eu.skillguard.entity.Role">
+            <query>
+                <![CDATA[select e from skillguard$Role e 
+where e.id in :ds$employeeDs.jobfunction.roles.id
+union
+select e from skillguard$Role e 
+where e.id in :ds$additionalRolesDs.id]]>
+            </query>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="800"
+                width="1000"/>
+    <layout spacing="true">
+        <vbox expand="splitBox"
+              height="735px"
+              spacing="true">
+            <split id="splitBox"
+                   orientation="horizontal"
+                   width="100%">
+                <vbox expand="additionalRolesBox"
+                      height="615px"
+                      margin="true"
+                      spacing="true">
+                    <fieldGroup id="fieldGroup"
+                                datasource="employeeDs"
+                                responsive="true"
+                                width="100%">
+                        <column width="300px">
+                            <field property="firstName"/>
+                            <field property="lastName"/>
+                            <field property="position"/>
+                            <field property="email"/>
+                            <field optionsDatasource="departmentsDs"
+                                   property="department"/>
+                            <field optionsDatasource="jobfunctionsDs"
+                                   property="jobfunction"/>
+                        </column>
+                    </fieldGroup>
+                    <table height="220px"
+                           width="100%">
+                        <columns>
+                            <column id="name"/>
+                            <column id="level"/>
+                        </columns>
+                        <rows datasource="empJobfunctionRolesDs"/>
+                    </table>
+                    <groupBox id="additionalRolesBox"
+                              caption="msg://eu.skillguard.entity/Employee.additionalRoles">
+                        <table id="additionalRolesTable"
+                               height="266px"
+                               width="100%">
+                            <actions>
+                                <action id="add"/>
+                                <action id="remove"/>
+                            </actions>
+                            <columns>
+                                <column id="name"/>
+                                <column id="level"/>
+                            </columns>
+                            <rows datasource="additionalRolesDs"/>
+                            <buttonsPanel>
+                                <button action="additionalRolesTable.add"/>
+                                <button action="additionalRolesTable.remove"/>
+                            </buttonsPanel>
+                        </table>
+                    </groupBox>
+                </vbox>
+                <vbox spacing="true">
+                    <groupTable height="356px"
+                                width="100%">
+                        <columns>
+                            <column id="issuingDate"/>
+                            <column id="expirationDate"/>
+                        </columns>
+                        <rows datasource="certificatesDs"/>
+                    </groupTable>
+                    <table height="323px"
+                           width="100%">
+                        <columns>
+                            <column id="name"/>
+                            <column id="level"/>
+                        </columns>
+                        <rows datasource="rolesDs"/>
+                    </table>
+                </vbox>
+            </split>
+            <hbox spacing="true"
+                  width="100%">
+                <frame id="windowActions"
+                       align="BOTTOM_LEFT"
+                       height="31px"
+                       screen="editWindowActions"/>
+            </hbox>
+        </vbox>
+    </layout>
+</window>

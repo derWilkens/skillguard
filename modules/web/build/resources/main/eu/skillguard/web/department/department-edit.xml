@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/window.xsd"
+        caption="msg://editorCaption"
+        class="eu.skillguard.web.department.DepartmentEdit"
+        datasource="departmentDs"
+        focusComponent="fieldGroup"
+        messagesPack="eu.skillguard.web.department">
+    <dsContext>
+        <datasource id="departmentDs"
+                    class="eu.skillguard.entity.Department"
+                    view="department-tree-view"/>
+        <collectionDatasource id="parentDepartmentsDs"
+                              class="eu.skillguard.entity.Department"
+                              view="_minimal">
+            <query>
+                <![CDATA[select e from skillguard$Department e]]>
+            </query>
+        </collectionDatasource>
+        <collectionDatasource id="defaultJobFunctionsDs"
+                              class="eu.skillguard.entity.Jobfunction"
+                              view="_minimal">
+            <![CDATA[select e from skillguard$Jobfunction e]]>
+        </collectionDatasource>
+    </dsContext>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="windowActions"
+            spacing="true">
+        <fieldGroup id="fieldGroup"
+                    datasource="departmentDs">
+            <column width="250px">
+                <field property="name"/>
+                <field property="acronym"/>
+                <field property="leader"/>
+                <field property="deputyLeader"/>
+                <field optionsDatasource="parentDepartmentsDs"
+                       property="parentDepartment"/>
+                <field optionsDatasource="defaultJobFunctionsDs"
+                       property="defaultJobFunction"/>
+            </column>
+        </fieldGroup>
+        <frame id="windowActions"
+               screen="editWindowActions"/>
+    </layout>
+</window>

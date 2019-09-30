@@ -2,105 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fb4dd0-d9b9-4afb-a647-7a6bbce7df4c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.script" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/hsqldb/skillguard/skillguard.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/app.2018-06-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/app.2018-06-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/app.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/logs/app.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat-ui.2018-06-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat-ui.2018-06-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat-ui.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat-ui.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat.2018-06-10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat.2018-06-14.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/logs/perfstat.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/aspectjrt-1.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/aspectjweaver-1.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-collections4-4.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-compress-1.14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-io-2.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/commons-lang3-3.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/eclipselink-2.6.2.cuba23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/freemarker-2.3.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/jgroups-3.6.7.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/json-20140107.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/mybatis-3.2.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/mybatis-spring-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/spring-security-oauth2-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/vaadin-push-7.7.13.cuba.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/vaadin-server-7.7.13.cuba.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/shared/lib/vaadin-shared-7.7.13.cuba.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/hsql/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/hsql/create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mssql/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mssql/create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mysql/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/mysql/create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/oracle/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/oracle/create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/postgres/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/init/postgres/create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/update/postgres/01/01-210-updateTabNameInSysFolder.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/10-cuba/update/postgres/01/01-210-updateTabNameInSysFolder.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/70-skillguard/init/hsql/10.create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/70-skillguard/init/hsql/10.create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/70-skillguard/init/hsql/20.create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/db/70-skillguard/init/hsql/20.create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-core-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-core-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app-core/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/halo/styles.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/themes/havana/styles.css.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.devmode.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.devmode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.devmode.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.devmode.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.nocache.js" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.nocache.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.nocache.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/com.haulmont.cuba.web.toolkit.ui.WidgetSet.nocache.js.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/compilation-mappings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/VAADIN/widgetsets/com.haulmont.cuba.web.toolkit.ui.WidgetSet/compilation-mappings.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-global-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-gui-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-gui-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-web-0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/lib/app-web-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/webapps/app/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/work/app-core/filestorage/storage.log" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/work/app-core/filestorage/storage.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/tomcat/work/app-core/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/tomcat/work/app-core/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core/db/init/hsql/10.create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/db/init/hsql/10.create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/core/db/init/hsql/20.create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/modules/core/db/init/hsql/20.create-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/global/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/modules/global/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/global/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/modules/global/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/global/src/eu/skillguard/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/global/src/eu/skillguard/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/global/src/eu/skillguard/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/global/src/eu/skillguard/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/global/src/eu/skillguard/entity/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/global/src/eu/skillguard/entity/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/global/src/eu/skillguard/views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/global/src/eu/skillguard/views.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/gui/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/modules/gui/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/gui/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/modules/gui/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-app.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-app.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-screens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web-screens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/certificate/Uploadframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/certificate/Uploadframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/certificate/certificate-browse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/certificate/certificate-browse.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/certificate/uploadFrame.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/certificate/uploadFrame.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/employee/EmployeeBrowse.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/employee/EmployeeBrowse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/employee/employee-browse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/employee/employee-browse.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/employee/employee-edit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/employee/employee-edit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/facebook-theme.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/facebook-theme.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/role/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/role/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/role/role-browse.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/role/role-browse.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/toolkit/ui/directoryupload/DirectoryUpload.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/toolkit/ui/directoryupload/DirectoryUpload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/toolkit/ui/directoryupload/directoryupload-connector.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/src/eu/skillguard/web/toolkit/ui/directoryupload/directoryupload-connector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/themes/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/themes/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/themes/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/themes/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/web/themes/facebook/facebook-defaults.scss" beforeDir="false" afterPath="$PROJECT_DIR$/modules/web/themes/facebook/facebook-defaults.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skillguard.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/skillguard.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skillguard.iws" beforeDir="false" afterPath="$PROJECT_DIR$/skillguard.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studio-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/studio-settings.xml" afterDir="false" />
     </list>
     <ignored mask="*.ipr" />
     <ignored mask="*.iml" />
@@ -175,9 +77,11 @@
     <session id="-2144321335">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -200,7 +104,7 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -220,6 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,18 +133,10 @@
               <item name="skillguard" type="b2602c69:ProjectViewProjectNode" />
               <item name="skillguard" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="skillguard" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skillguard" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -248,7 +146,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.inlinked.gradle.project.popup" value="false" />
   </component>
   <component name="RunDashboard">
@@ -268,7 +167,7 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
@@ -283,6 +182,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -293,38 +193,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
+    <configuration default="true" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
       <method v="2">
         <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
-    <configuration name="localhost:8787" type="Remote" factoryName="Remote">
+    <configuration name="localhost:8787" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="8787" />
+      <option name="AUTO_RESTART" value="false" />
       <method v="2" />
     </configuration>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="UPDATE_RUN_STATUS" value="false" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="DETECT_NESTED_COPIES" value="true" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -339,13 +230,11 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25704697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Learn" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -353,14 +242,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
